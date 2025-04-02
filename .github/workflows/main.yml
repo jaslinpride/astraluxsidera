@@ -1,3 +1,6 @@
-curl -X GET "https://api.cloudflare.com/client/v4/user/tokens/verify" \
-     -H "Authorization: Bearer DyInSJKVfacBSQqDE8X-VpSKDTdNLsEA0yIsvgdr" \
-     -H "Content-Type:application/json"
+name: Deploy to Cloudflare Pages
+run: | 
+curl -X POST "https://api.cloudflare.com/client/v4/pages/projects/YOUR_PROJECT_ID/deployments" \ 
+     -H "Authorization: Bearer secrets.CF_API_TOKEN " 
+     -H "Content-Type: application/json" -d ' "deploy": "source": "./" ' 
+     env: CF_API_TOKEN:{{ secrets.CF_API_TOKEN }}
