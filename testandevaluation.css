@@ -224,3 +224,7 @@ nav .mainMenu li a:hover {
         transform: translateY(-10px);
     }
 }
+
+@media(max-width: 800px) {
+    
+}
