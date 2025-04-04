@@ -1,9 +1,5 @@
-on: push braches: main 
-name: Deploy to Cloudflare pages 
-run: | curl -X POST "https://api.cloudflare.com/client/v4/page/user/tokens/verify"\ 
-     -H "Authorization: Bearer DyIn5JKVfacBSQqDE8X-VpSKDTdNLsEA0yIsvgdr"\ 
-     -H "Content-type: application/json" 
-     -d '"deploy:" "source:" "./"' env: "https://api.cloudflare.com/client/v4/page/user/tokens/verify"\:{{"DyIn5JKVfacBSQqDE8X-VpSKDTdNLsEA0yIsvgdr"\}}
+on: push 
+braches: main  
 name: Deploy to Cloudflare pages 
 run: | 
 curl -X POST "https://api.cloudflare.com/client/v4/user/tokens/verify"\ 
