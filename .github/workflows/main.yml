@@ -1,6 +1,6 @@
-name: Deploy to Cloudfare pages 
+name: Deploy to Cloudflare pages 
 run: | 
-curl -X GET "https://api.cloudfare.com/client/v4/page/user/tokens/verify"\ 
+curl -X GET "https://api.cloudflare.com/client/v4/page/user/tokens/verify"\ 
      -H "Authorization: Bearer DyIn5JKVfacBSQqDE8X-VpSKDTdNLsEA0yIsvgdr"\ 
      -H "Content-Type: application/json" 
      -d '"deploy:" "source:" "./"' env: "https://api.cloudfare.com/client/v4/page/user/tokens/verify"\:{{"DyIn5JKVfacBSQqDE8X-VpSKDTdNLsEA0yIsvgdr"\}}
