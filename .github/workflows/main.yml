@@ -1,6 +1,7 @@
-name: Deploy to Cloudflare Pages
+name: Deploy to Cloudfare pages 
 run: | 
-curl -X POST "https://api.cloudflare.com/client/v4/pages/projects/YOUR_PROJECT_ID/deployments" \ 
-     -H "Authorization: Bearer secrets.CF_API_TOKEN " 
-     -H "Content-Type: application/json" -d ' "deploy": "source": "./" ' 
-     env: CF_API_TOKEN:{{ secrets.CF_API_TOKEN }}
+curl -X POST "https://api.cloudfare.com/client/v4/page/user/tokens/verify"\ 
+     -H "Authorization: Bearer DyIn5JKVfacBSQqDE8X-VpSKDTdNLsEA0yIsvgdr"\ 
+     -H "Content-type: application/json" -d '"deploy:" "source:" "./"' 
+     env: "https://api.cloudfare.com/client/v4/page/user/tokens/verify"\:{{"DyIn5JKVfacBSQqDE8X-VpSKDTdNLsEA0yIsvgdr"\}}
+    
