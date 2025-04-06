@@ -423,6 +423,37 @@ nav .mainMenu li a:hover {
     font-weight: 500;
 }
 
+.mcp-resource {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    line-height: 1.6;
+    text-align: center;
+    font-size: 16px;
+    color: #293241;
+    padding: 3rem;
+    gap: 5%;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.mcp-resource img {
+    width: 2.5%;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 18px;
+    font-weight: 2000;
+    margin-top: 0.5rem;
+}
+
+.mcp-link {
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
 .author {
     margin-top: 3rem;
     margin-bottom: 3rem;
