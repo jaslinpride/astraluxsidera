@@ -46,17 +46,57 @@
         <div class="sow-text">
             <p>Model Based Systems Engineering SOW</p>
             <p>1. Introduction</p>
-            <p>1.1 Project Background</p>
-            <p>The <i>Sidera I</i> government and commercial sector stakeholders (the “Clients”) are industry leaders in collection services, catering to agricultural, defense, and weather-related needs. As they expand their service offerings, there is an increasing demand to integrate multi-spectral imaging capabilities to support diverse data types and enhance analytical insights. To drive this initiative forward, the AstraLux Systems Engineering Team (the “Agency”) has partnered with the Clients to deliver comprehensive systems engineering documentation and cutting-edge digital engineering solutions.</p>
-            <p>1.2 Project Overview</p>
+            <p>1.1 Project Information</p>
+            <p>INSERT TABLE</p>
+            <p>1.2 Project Background</p>
+            <p>The <i>Sidera I</i> stakeholder (the “Client”) specializes in providing collection services
+                for agricultural, defense, and weather industries. As the Client expands its service
+                oﬀerings, there is an increasing need to integrate multi-spectral imaging capabilities to
+                support diverse data types and enhance analytical solutions. To drive this initiative, the
+                AstraLux Systems Engineering Team (the “Agency”) has partnered with the Client to
+                deliver comprehensive systems engineering documentation and digital engineering
+                solutions.</p>
+            <p>1.3 Project Overview</p>
+            <p>The Agency will develop comprehensive systems engineering documentation and
+                establish a digital engineering environment to support the Client in successfully
+                executing Concept Development, Engineering Development, and Post-Development
+                design reviews, ensuring the seamless integration of the Sidera I spacecraft collection
+                system.</p>
+            <p>Key responsibilities include documentation, modeling, simulation, testing,
+                requirements validation, and defining software and hardware system interfaces. From
+                project initiation on October 1, 2025, through completion on September 30, 2027, the
+                Agency will actively engage in technical and program meetings, as well as hardware and
+                software audits.</p>
+            <p>At the project's conclusion, the fully integrated system will be transitioned to the
+                Client for continued operation and maintenance.</p>
             <p>2. Objectives</p>
             <p>2.1 Project Objectives</p>
+            <li>1. Develop and simulate detailed models of the structure, behavior, and parametric characteristics of the
+                <i>Sidera I</i> system interfaces, ensuring seamless integration of hardware and software components.</li>
+            <li>2. Establish a robust digital engineering environment that consolidates all program management,
+                systems, hardware, and software artifacts into a centralized, easily accessible platform for the Client and
+                their customers, facilitating streamlined access and efficient manufacturing processes.</li>
+            <li>3. Schedule, plan and host successful design reviews to demonstrate the full functionality of the
+                hardware and software systems.</li>
+            <li>4. Schedule, plan, and oversee the integration of the system into the Client’s customer site, ensuring
+                seamless deployment and full operational readiness.</li>
             <p>3. Scope of Work</p>
             <p>3.1 In Scope</p>
-            <li>Develop interface, functional, physical, and requirements artifacts to document the system configuration </li>
-            <li>Addressing the mission engineering of the Client's customer's system-of-systems</li>
+            <li>Actively collaborate with the Client by participating in weekly leadership and technical
+                meetings.</li>
+            <li>Develop interface, functional, physical, requirements artifacts to document the system
+                configuration, informed by insights from Client meetings.</li>
+            <li>Manage logistics and establish parameters for successful design reviews.</li>
+            <li>Oversee and coordinate system integration activities to ensure a seamless
+                deployment.</li>
+            <li>Addressing the mission engineering context of the Client’s system.</li>
+            <li>Addressing the mission engineering context of the Client’s customer’s system of
+                systems.</li>
             <p>3.2 Out of Scope</p>
-            <p>TBD</p>
+            <li>Developing additional assets beyond those explicitly outlined in the Statement of
+                Work.</li>
+            <li>Providing support for maintenance or retirement procedures, including system
+                updates or replacing the integrated system with enhanced legacy systems.</li>
         </div>
     </div>
     <div class="down-arrow">
@@ -82,25 +122,123 @@ download="Space System Statement of Work.pdf">Download Space System Statement of
         <div class="wbs-text">
             <p>The Work Breakdown Structure for the -- project provides a detailed decomposition of all tasks and deliverables necessary for successful completion. By breaking the project down into smaller, manageable components, the WBS ensures that every aspect of the development process- from initial design to final testing- is clearly defined and assigned. This structured approach helps to identify dependencies between tasks, allocate resources efficiently, and monitor progress at a granular level. Each work package is linked to specific milestones, making it easier to track performance and identify any areas requiring attention. Through the WBS, stakeholders can maintain a clear overview of the project's scope, ensuring that all critical elements are addressed and that the project stays aligned with its objectives.</p>
             <b>System</b>
-            <p>TBD</p>
+            <p>Operate Space Vehicle</p>
+            <p>The spacecraft is equipped with a Synthetic Aperture Radar (SAR) payload that collects high-resolution imagery in all weather and lighting conditions. Radar signals are processed and stored onboard in a high-capacity memory system until downlink. During communication passes, the data is transmitted to ground stations using high-speed telemetry links. Once received, the imagery is processed and distributed to end users. Military, commercial, and research analysts then exploit the data for applications ranging from surveillance and disaster response to environmental and infrastructure monitoring. </p>
             <b>Subsystem</b>
-            <p>Attitude Determination and Control</p>
-            <p>Command and Data Handling</p>
-            <p>Payload</p>
-            <p>Power</p>
-            <p>Propulsion</p>
-            <p>Telemetry, Tracking, and Command</p>
-            <p>Thermal</p>
+            <li>Attitude Determination and Control</li>
+            <p>The Attitude Determination and Control Subsystem (ADCS) is responsible for accurately determining and maintaining the spacecraft’s orientation and positioning throughout its mission. By continuously monitoring onboard sensor data and executing automated control tasks, the ADCS ensures proper alignment and orbital adjustments as needed. </p>
+            <li>Command and Data Handling</li>
+            <p>The Command and Data Handling (C&DH) subsystem serves as the central nervous system of the spacecraft, responsible for executing control functions, managing internal data flow, and facilitating communication with external systems. It typically comprises a processor and associated memory for running flight software, mass storage for downlink data, and a suite of digital and analog interfaces to communicate with other onboard subsystems.</p>
+            <li>Electrical Power</li>
+            <p>The Electrical Power (EPS) subsystem provides the essential processing capabilities required to control the satellite, regulate power, manage inter-component communication, and support critical decision-making throughout the mission lifecycle. Additionally, it is responsible for onboard data storage and overall electrical system management to ensure consistent and reliable satellite operations. </p>
+            <li>Payload</li>
+            <p>The payload subsystem comprises the components of the spacecraft specifically designed to generate mission-critical data that is transmitted back to Earth for analysis and use. </p>
+            <li>Propulsion</li>
+            <p>The propulsion subsystem generates thrust to maneuver the spacecraft, enabling changes in velocity, orbital adjustments, and attitude control necessary for mission operations and trajectory corrections. </p>
+            <li>Structural</li>
+            <p>The structure subsystem ensures the mechanical integrity of the spacecraft by supporting all onboard components and withstanding the stresses of handling, launch, microgravity conditions, and propulsion operations. It provides the foundational framework that maintains the spacecraft’s form and stability throughout the mission. </p>
+            <li>Telemetry, Tracking, and Command</li>
+            <p>The Telemetry, Tracking, and Command (TT&C) subsystem is a critical component of both crewed and autonomous spacecraft operations. It encompasses the downlink of platform telemetry data, the determination of spacecraft location through tracking and ranging signals, and the uplink of commands from mission control.</p>
+            <li>Thermal</li>
+            <p>The thermal control subsystem is designed to regulate the temperature of all spacecraft components, subsystems, and flight systems, ensuring they remain within specified operational limits across all mission phases— from launch through end-of-life. </p>
             <b>Hardware (HWCI) and Software (SWCI) Configuration Items</b>
-            <p>Reaction Wheel</p>
-            <p>X-Band Downlink</p>
-            <p>Heater</p>
-            <p>Radiator</p>
+            <p>1. Reaction Wheel</p>
+            <p>2. Magnetometer</p>
+            <p>3. Sun Sensor</p>
+            <p>4. Star Sensor</p>
+            <p>5. Horizon Sensor</p>
+            <p>6. Reaction Wheel</p>
+            <p>7. Magnetorquer</p>
+            <p>8. Fine Attitude Thruster</p>
+            <p>9. On-Board Computer</p>
+            <p>10. Data Storage</p>
+            <p>11. Flight Software</p>
+            <p>12. Solar Panels</p>
+            <p>13. Battery</p>
+            <p>14. Camera</p>
+            <p>15. Scientific Instrument</p>
+            <p>16. Ullage Tank</p>
+            <p>17. Main Thruster</p>
+            <p>18. Frame</p>
+            <p>19. Downlink Antenna</p>
+            <p>20. Transponder</p>
+            <p>21. Receiver</p>
+            <p>22. Transmitter</p>
+            <p>23. Decoder</p>
+            <p>24. Heater</p>
+            <p>25. Radiator</p> 
+            <p>26. Multi-Layer Thermal Insulation</p>
+            <b>Systems Engineering CDRLs</b>
+            <p>1. Risk Assessment</p>
+            <p>a. The technical risks associated with the spacecraft and its subsystems stem from potential threats and vulnerabilities that may impact mission success, system functionality, organizational assets, or reputation. These risks are identified, estimated, and prioritized through a structured process that incorporates threat assessments, vulnerability analyses, and the effectiveness of existing or planned security controls as part of a broader risk management strategy. </p>
+            <p>2. Systems Engineering Management Plan</p>
+            <p>a. The Systems Engineering Management Plan (SEMP) defines the technical and managerial framework for executing systems engineering activities across the spacecraft and its associated subsystems. It outlines how program and engineering personnel will coordinate, manage, and implement engineering processes to ensure system integration, performance, and mission success throughout the project lifecycle. </p>
+            <p>3. Concept of Operations</p>
+            <p>a. The Concept of Operations (CONOPS) outlines how the spacecraft is intended to operate within a broader mission system-of-systems environment. It defines the operational vision, use cases, and interactions between systems, providing a clear understanding of how the spacecraft supports mission objectives, integrates with other assets, and functions under real-world conditions.</p>
+            <p>4. System/Subsystem Design Description</p>
+            <p>a. The System/Subsystem Design Description (SSDD) defines the overall design and architecture of the spacecraft and its associated subsystems, detailing how each subsystem functions and integrates within the larger system. It serves as a critical technical reference that documents design decisions, structural relationships, and functional behavior to ensure consistency, traceability, and alignment with mission requirements.</p>
+            <p>5. Interface Control Document</p>
+            <p>a. The Interface Control Document (ICD) defines the physical and functional interfaces between the spacecraft, its subsystems, and other interconnected systems within the mission system-of-systems environment. It specifies the data, signals, and protocols exchanged across system boundaries, ensuring interoperability, integration, and consistent communication throughout mission operations.</p>
+            <p>6. Test and Evaluation Master Plan</p>
+            <p>a. The Test and Evaluation Master Plan (TEMP) establishes the overarching strategy for testing and evaluating the spacecraft and its associated subsystems, defining the structure, objectives, and required resources across all phases of the T&E program. It provides a coordinated framework for generating detailed test plans, outlines scheduling and resource implications, and ensures that performance, reliability, and mission readiness are thoroughly assessed in alignment with program goals.</p>
+            <b>Systems Design Reviews</b>
+            <p>1. Requirements Review</p>
+            <p>a. The Requirements Review (RV) ensures that all relevant system requirements and constraints have been clearly defined, thoroughly documented, and completely understood by all stakeholders. It serves as a foundational checkpoint to confirm alignment between mission objectives and technical needs. This review is typically conducted in conjunction with the Preliminary Design Review (PDR) to support a smooth transition into the design phase.</p>
+            <p>2. System Design Review</p>
+            <p>a. The System Design Review (SDR) is a key milestone for large or complex systems, focused on evaluating the decomposition and allocation of system-level requirements to individual configuration items or subsystems. It ensures that each subsystem has clearly defined responsibilities aligned with overall mission objectives and that the system architecture supports successful integration and implementation.</p>
+            <p>3. Preliminary Design Review</p>
+            <p>a. The Preliminary Design Review (PDR) evaluates the proposed system design to ensure it is technically sound, feasible, and aligned with all identified requirements. This review assesses the overall maturity of design concepts, examines underlying assumptions and engineering calculations, and presents the merits and limitations of alternative approaches. Preliminary models— such as sketches, mock-ups, or early prototypes— may be used to support the evaluation.</p>
+            <p>In addition to technical adequacy, the PRD provides a comprehensive review of project status, including budget alignment, schedule progress, identified risk factors, and proposed mitigation strategies. It serves as a critical checkpoint before advancing to detailed design and development phases.</p>
+            <p>4. Critical Design Review</p>
+            <p>a. The Critical Design Review (CDR) is a technical evaluation that confirms the readiness of a system to advance to implementation and integration. It establishes the initial product baseline by assessing whether subsystem requirements, detailed designs, peer review outcomes, and test and evaluation plans collectively provide a sound foundation for continued development.</p>
+            <p>5. Test Readiness Review</p>
+            <p>a. The Test Readiness Review (TRR) evaluates whether the planned testing activities for prototypes or preproduction units are adequately prepared to verify the design against defined requirements. It ensures that test plans, procedures, and resources are complete, reliable, and aligned with program objectives.</p>
+            <p>The TRR confirms that all elements—ranging from test environments to data collection methods— are in place and that the system is ready to enter the test phase with minimal risk and maximum confidence in producing meaningful results.</p>
+            <p>6. Final Design Review</p>
+            <p>a. The Final Design Review (FDR) is conducted after prototype or preproduction units have successfully completed verification testing. It serves as a final checkpoint to assess any issues encountered during testing, evaluate proposed solutions, and validate that the design meets all performance, cost, reliability, and manufacturability requirements.</p>
+            <p>During this review, all necessary modifications are confirmed and formally agreed upon before proceeding to full-scale production. The FDR ensures that the product is fully mature, risks are mitigated, and the program is ready to transition confidently into manufacturing.</p>
+            <p>7. Production Readiness Review</p>
+            <p>The Production Readiness Review (PRR) is a critical assessment for products intended for high-volume manufacturing. It evaluates whether the design, processes, and supply chain are prepared to support efficient and reliable production at scale. </p>
+            <p>In the early stages, the PRR focuses on high-level manufacturing considerations— such as tooling strategy, production flow, and supplier capabilities. As the design matures, later-stage PRRs delve into detailed evaluations of manufacturing plans, process controls, quality assurance measures, and readiness of production infrastructure.</p>
+            <p>This review ensures that all aspects of the production lifecycle are aligned to deliver consistent, cost-effective output while meeting performance and quality standards. </p>
+            <b>Digital engineering</b>
+            <p>The Digital Engineering initiative includes six aspects:</p>
+            <p>1. Systems Architecture</p>
+            <p>This aspect emphasizes the blueprint for designing complex systems, ensuring all components are aligned and function cohesively. It involves defining the structure, interactions, and data flows to meet both technical requirements and business objectives.</p>
+            <p>2. Requirements Engineering </p>
+            <p>This aspect centers on the process of identifying and documenting the needs, constraints, and expectations of stakeholders. It transforms these inputs into clear, actionable specifications that guide the entire development lifecycle, ensuring alignment with both user and organizational goals.</p>
+            <p>3. Digital Twin</p>
+            <p>This aspect revolves around creating a virtual counterpart of a physical asset or system, allowing for continuous monitoring and performance optimization. It uses real-time data to simulate real-work conditions, improving decision-making, predictive maintenance, and overall system efficiency.</p>
+            <p>4. Digital Environment</p>
+            <p>This aspect focuses on creating a virtual space that showcases the entire progression of a system project, from concept development to final vendor configuration. It serves as a comprehensive platform for visualizing and interacting with all stages of the project, enabling stakeholders to review, refine, and collaborate on every detail in a cohesive immersive environment.</p>
+            <p>The AstraLux Systems Engineering Team has developed a Deliverable-Oriented Work Breakdown Structure (DO WBS) derived from an Object-Oriented Work Breakdown Structure (OO WBS). This approach focuses on the project’s results— such as Hardware Configuration Items (HWCIs), Software Configuration Items (SWCIs), systems, and software requirement specifications— placing them at the center of the planning process. The DO WBS converts these components into action deliverables that Systems Engineerings must complete in preparation for the upcoming () and integration, ensuring the components are fully realized.</p>
+            <b>Object-oriented work breakdown structure</b>
+            <p>The following figure provides a detailed overview of the OO WBS.</p>
+            <div class="oowbs"
+                img src="Work Breakdown Structure Graphics.002.jpeg" alt="No-oo-wbs-picture">
+            </div>
+            <b>Deliverable-oriented work breakdown structure</b>
+            <p>The following figure provides a detailed overview of the DO WBS.</p>
+            <div class="dowbs"
+                img src="Work Breakdown Structure Graphics.003.jpeg" alt="No-do-wbs-picture">
+            </div>
+            <b>Sidera I JIRA Task management </b>
+            <p>The DO WBS will be translated into JIRA Task Management tickets to ensure seamless execution by the system engineers. Each deliverable within the WBS will be broken down into specific, actionable tasks, which will then be assigned as individual JIRA tickets. These tickets will outline clear objectives, timelines, and dependencies, enabling the team to efficiently track progress and complete the deliverables required for a successful ().</p>
+            <p>Each deliverable will be broken down into epics, stories, and tasks, where:</p>
+            <p>Epics represent large, overarching goals that are broken into similar, more manageable components</p>
+            <p>Stories are specific user-focused deliverables that outline a particular function or outcome within the Epic </p>
+            <p>and</p>
+            <p>Tasks are the individual actions or steps needed to complete a Story and ultimately contribute to the overall Epic </p>
+            <p>Access the JIRA Task Management board using the following link: Sidera I Repository</p>
         </div> 
     </div>      
     <div class="down-arrow">
         <a href="#ims"><img src="Down Arrow.png" alt="No Down Arrow"></a>
     </div>
+</div>
+<div class="wbs-link">
+    <a href="Work Breakdown Structure-rev0.pdf" 
+download="Work Breakdown Structure.pdf">Download Work Breakdown Structure (PDF)</a>
 </div>
 <div class="wbs-resource">
     <p>This Work Breakdown structure was made with <img src="microsoft-visio.png" alt="No-wbs-resource-picture">.</p>
@@ -170,7 +308,6 @@ download="Space System Statement of Work.pdf">Download Space System Statement of
         <a href="#pm-welcome"><img src="Up Arrow.png" alt="No Up Arrow"></a>
     </div>
 </div>
-</body>
 <footer>
     <!--Website Made By-->
     <div class="author">
@@ -181,5 +318,7 @@ download="Space System Statement of Work.pdf">Download Space System Statement of
         <p>&copy; AstraLux 2025</p>
     </div>   
 </footer>
+    <script src="programmanagement.js"></script>
+</body>
 </html>
-</div> 
+

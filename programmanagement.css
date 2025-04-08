@@ -189,7 +189,7 @@ nav .mainMenu li a:hover {
 
 .sow-text {
     text-align: left;
-    width: 60%;
+    width: 100%;
     line-height: 1;
     letter-spacing: 1px;
     color: #293241;
@@ -262,6 +262,11 @@ nav .mainMenu li a:hover {
     font-size: 18px;
     font-weight: 2000;
     margin-top: 0.5rem;
+}
+
+.sow-link {
+    margin-top: 0.5rem;
+    text-align: center;
 }
 
 .imp-title {
@@ -377,13 +382,27 @@ nav .mainMenu li a:hover {
 
 .wbs-text {
     text-align: left;
-    width: 60%;
+    width: 100%;
     line-height: 1;
     letter-spacing: 1px;
     color: #293241;
     font-size: 12px;
     margin-bottom: 0.3rem;
     font-weight: 500;
+}
+
+.oowbs img {
+    margin-top: 1.7rem;
+    margin-bottom: 1.7rem;
+    width: 50%;
+    text-align: center;   
+}
+
+.dowbs img {
+    margin-top: 1.7rem;
+    margin-bottom: 1.7rem;
+    width: 50%;
+    text-align: center;
 }
 
 .wbs-resource {
@@ -410,6 +429,11 @@ nav .mainMenu li a:hover {
     font-size: 18px;
     font-weight: 2000;
     margin-top: 0.5rem;
+}
+
+.sow-link {
+    margin-top: 0.5rem;
+    text-align: center;
 }
 
 .ims-title {
