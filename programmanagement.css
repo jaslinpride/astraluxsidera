@@ -391,6 +391,37 @@ nav .mainMenu li a:hover {
     font-weight: 500;
 }
 
+.wbs-body {
+    text-align: left;
+    width: 100%;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 12px;
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+}
+
+.wbs-st-one {
+    text-align: left;
+    width: 100%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 16px;
+    margin-bottom: 0.2rem;
+}
+
+.wbs-st-two {
+    text-align: left;
+    width: 100%;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 14px;
+    margin-bottom: 0.05rem;
+}
+
 .oowbs img {
     margin-top: 1.7rem;
     margin-bottom: 1.7rem;
