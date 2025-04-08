@@ -198,6 +198,37 @@ nav .mainMenu li a:hover {
     font-weight: 500;
 }
 
+.sow-body {
+    text-align: left;
+    width: 100%;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 12px;
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+}
+
+.sow-st-one {
+    text-align: left;
+    width: 100%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 16px;
+    margin-bottom: 0.2rem;
+}
+
+.sow-st-two {
+    text-align: left;
+    width: 100%;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 14px;
+    margin-bottom: 0.05rem;
+}
+
 .sow-text-title {
     text-align: center;
     width: 100%;
@@ -422,6 +453,17 @@ nav .mainMenu li a:hover {
     margin-bottom: 0.05rem;
 }
 
+.wbs-jira {
+    text-align: left;
+    width: 100%;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 12px;
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+}
+
 .oowbs img {
     margin-top: 1.7rem;
     margin-bottom: 1.7rem;
@@ -462,7 +504,7 @@ nav .mainMenu li a:hover {
     margin-top: 0.5rem;
 }
 
-.sow-link {
+.wbs-link {
     margin-top: 0.5rem;
     text-align: center;
 }
