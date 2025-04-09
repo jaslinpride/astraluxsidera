@@ -218,7 +218,7 @@ th {
 .sow-body {
     text-align: left;
     width: 100%;
-    line-height: 1.1;
+    line-height: 1.5;
     letter-spacing: 1px;
     color: #293241;
     font-size: 12px;
@@ -233,18 +233,18 @@ th {
     letter-spacing: 1px;
     color: #293241;
     font-size: 16px;
-    margin-bottom: 0.1rem;
-    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+    margin-top: 1.5rem;
 }
 
 .sow-st-two {
     text-align: left;
     width: 100%;
-    line-height: 1;
+    line-height: 1.5;
     letter-spacing: 1px;
     color: #293241;
     font-size: 14px;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.2rem;
     margin-top: 0.5rem;
 }
 
@@ -291,7 +291,7 @@ th {
 .sow-resource {
     margin-top: 1rem;
     margin-bottom: 3rem;
-    line-height: 1.6;
+    line-height: 1.5;
     text-align: center;
     font-size: 16px;
     color: #293241;
@@ -444,7 +444,7 @@ th {
 .wbs-body {
     text-align: left;
     width: 100%;
-    line-height: 1;
+    line-height: 1.5;
     letter-spacing: 1px;
     color: #293241;
     font-size: 12px;
@@ -460,6 +460,7 @@ th {
     color: #293241;
     font-size: 16px;
     margin-bottom: 0.2rem;
+    margin-top: 1.5rem;
 }
 
 .wbs-st-two {
@@ -469,7 +470,7 @@ th {
     letter-spacing: 1px;
     color: #293241;
     font-size: 14px;
-    margin-bottom: 0.05rem;
+    margin-bottom: 0.2rem;
 }
 
 .wbs-jira {
@@ -484,17 +485,30 @@ th {
 }
 
 .oowbs img {
-    margin-top: 1.7rem;
-    margin-bottom: 1.7rem;
-    width: 50%;
-    text-align: center;   
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 80%; 
+    margin: auto;
+}
+
+.oowbs {
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .dowbs img {
-    margin-top: 1.7rem;
-    margin-bottom: 1.7rem;
-    width: 50%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 80%;
     text-align: center;
+    margin: auto;
+}
+
+.dowbs {
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .wbs-resource {
