@@ -72,20 +72,137 @@
 </div>
 <div class="ucimg" id="uc">
     <div class="uc">
-        <div class="uc-text-1">
-            <p><p>This section is currently under construction as Jaslin works on exciting updates—check back soon for new features and improvements!</p>
+        <div class="uc-text">
+            <h3>DoD Kill Chain: F2T2EA - Use Case Scenarios</h3>
+                <h4>Find</h4>
+                <p>Objective: Detect potential targets of interest across wide-area surveillance.</p>
+                <p>Personnel Involved:</p>
+                <li>All-Source Intelligence Analysts and Geospatial Intelligence Analysts (GEOINT) interpret SAR data for actionable insights. </li>
+                <li>Collection Managers and Mission Managers coordinate tasking of spacecraft sensors. </li>
+                <li>Cybersecurity Engineers and Cyber Warfare Specialists ensure secure communications and guard against spoofed data. </li>
+                <li>Artificial Intelligence/Machine Learning Specialists support AI-driven onboard identification. </li>
+                <li>Watch Officers and Joint Staff J2 receive briefings and allocate response resources. </li>
+                <li>Payload Operations Specialists configure payloads for optimal imaging. </li>
+                <li>Office of the Director of National Intelligence Liaisons provide interagency coordination. </li>
+                <li>Spacecraft collects persistent intelligence, surveillance, and reconnaissance using Synthetic Aperture Radar (SAR) over designated AOIs using wide-area coverage modes.</li>
+                <li>Ground Station Operator receives collection tasking via Command and Control node; prioritized orbits/sensors for optimal collection based on mission urgency.</li>
         </div>
-        <div class="uc-text-2">
-            <p>This section is currently under construction as Jaslin works on exciting updates—check back soon for new features and improvements!</p>
+        <div class="uc-text">
+                <h4>Fix</h4>
+                <p>Objective: Precisely locate the target in time and space for further targeting actions. </p>
+                <p>Personnel Involved:</p>
+                <li>Attitude Determination and Control Engineers ensure the satellite is correctly oriented for targeting. </li>
+                <li>Data Dissemination Analysts manage dissemination pipelines of location data.</li>
+                <li>Spacecraft: Shifts to narrow-beam, high-resolution collection or Multi-sensor fusion to verify target identity and coordinates. </li>
+                <li>Ground Segment/Engineers coordinates data correlation from multiple passes/sensors’ manages latency to reduce delay in fix confirmation. handle low-latency comms and data relay.</li>
+                <li>Satellite Operators and System Engineers work in tandem to ensure sensor precision.</li>
+                <li>Military End User: Receives geolocation fix via tactical interface (exempli grata, ATAK); verifies fix through additional local ISR or HUMINT if available. </li>
         </div>
-        <div class="uc-text-3">
-            <p>This section is currently under construction as Jaslin works on exciting updates—check back soon for new features and improvements!</p>
+        <div class="uc-text">
+                <h4>Track</h4>
+                <p>Objective: Maintain custody of the target and predict its movements. </p>
+                <p>Personnel Involved:</p>
+                <li>Modeling and Simulation Engineers develop target movement models.</li>
+                <li>Flight Software Engineers update onboard tracking algorithms.</li>
+                <li>Network Engineers optimize real-time data flow across systems.</li>
+                <li>Reconnaissance Marines and Unmanned Aerial Systems Operators may supplement data with on-the-ground movement patterns.</li>
+                <li>Spacecraft: Uses AI onboard to autonomously reacquire and track moving targets between orbits; may cue other assets. </li>
+                <li>Ground Station Operators monitor ongoing target track; coordinates updates to mission planners or C2 systems. </li>
+                <li>Military End Users view live or near-real-time target tracking overlay; integrates data with ground movements or troop positions for coordinated action. </li>
         </div>
-        <div class="uc-text-4">
-            <p>This section is currently under construction as Jaslin works on exciting updates—check back soon for new features and improvements!</p>
+        <div class="uc-text">
+                <h4>Target</h4>
+                <p>Objective: Develop a valid firing or strike solution.</p>
+                <p>Personnel Involved:</p>
+                <li>Imagery Scientists, SIGINT Analysts, and Targeting Officers validate strike data. </li>
+                <li>Combat Systems Officers integrate this data into weapons platforms. </li>
+                <li>Mission Assurance Analysts evaluate risk factors before targeting. </li>
+                <li>Program Managers/IPT Leads coordinate joint target packages.</li>
+                <li>Spacecraft: Generates targeting-quality data (imagery, SIGINT, LIDAR); may support weaponeering through high-fidelity 3D mapping. </li>
+                <li>Ground Station Operators verify data integrity, timestamps, and classification level for use in targeting; pushes data to fire control systems.</li>
+                <li>Military End Users engage in joint targeting process (exempli grata, JTCB); confirms ROE compliance, collateral damage estimate, and mission authority. </li>
         </div>
-        <div class="uc-text-5">
-            <p>This section is currently under construction as Jaslin works on exciting updates—check back soon for new features and improvements!</p>
+        <div class="uc-text">
+                <h4>Engage</h4>
+                <p>Objective: Deliver kinetic or non-kinetic effects on the target.</p>
+                <p>Personnel Involved:</p>
+                <li>Radio Frequency and Communications Engineers ensure real-time comms with strike assets.</li>
+                <li>Joint Staff J6 manages operational command systems.</li>
+                <li>Space Operations Officers monitor mission timing and relay continuity.</li>
+                <li>Cyber Warfare Specialists support non-kinetic (cyber) engagements.</li>
+                <li>Spacecraft: May support comms relay, BDA (battle damage assessment) support, or counter-space warning; does not directly engage. </li>
+                <li>Ground Station Operators support ISR handoff to strike platforms; ensures uninterrupted data feeds during strike window. </li>
+                <li>Military End Users execute strike via direct fire, CAS, or long—range precision fires; uses satellite cueing to align effectors. </li>
+        </div>
+        <div class="uc-text">
+                <h4>Assess</h4>
+                <p>Objective: Evaluate effectiveness of engagement and inform follow-up actions.</p>
+                <p>Personnel Involved:</p>
+                <li>Thermal Engineers analyze thermal imaging from post-strike passes.</li>
+                <li>Imagery Scientists and All-Source Analysts compare pre/post-strike imagery.</li>
+                <li>Mission Schedulers prepare follow-up tasks based on BDA needs.</li>
+                <li>Under Secretary of Defense for Intelligence and Security may direct assessment at policy level.</li>
+                <li>Spacecraft: Conducts immediate post-strike imaging or signal intercept to assess effect on target. </li>
+                <li>Ground Station Operators prioritize rapid downlink and processing of BDA assets; may cue re-tasking for additional passes. </li>
+                <li>Military End Users review BDA in near real-time, confirms mission success or need for re-engagement; updates C2 systems.</li>
+        </div>
+        <div class="uc-text">
+                <h4>Tasking</h4>
+                <p>Objective: Assign collection requirements based on commander’s intel priorities.</p>
+                <p>Personnel Involved:</p>
+                <li>Defense Space Policy Analysts shape collection policy.</li>
+                <li>Director, Defense Intelligence Agency and Deputy Assistant Secretary of Defense for Space and Intelligence validate high-level priorities.</li>
+                <li>United States Space Command Liaison Officers deconflict space asset availability.</li>
+                <li>Payload Engineers and Mission Systems Architects configure collection methods.</li>
+                <li>Spacecraft: Accepts automated tasking via C4ISR (example grata, PED tasking from IC).</li>
+                <li>Ground Station Operators schedule spacecraft assets according to intel tasking orders; confirms asset availability and coverage feasibility.</li>
+                <li>Military End Users submit priority intelligence requirements (PIRs); requests mission-specific intel support. </li>
+        </div>
+        <div class="uc-text">
+                <h4>Collection</h4>
+                <p>Objective: Acquire raw data using technical or human means. </p>
+                <p>Personnel Involved:</p>
+                <li>Spacecraft: Executes collection pass over AIO; may use onboard AI to prioritize spectral bands or event triggers. </li>
+                <li>Ground Station Operators manage downlink windows and data quality control; ensures multiple source integration if applicable. </li>
+                <li>System Administrators and Software Engineers support satellite control and data acquisition. </li>
+                <li>Hardware Engineers and Mechanical/Structural Engineers ensure payloads function correctly under dynamic conditions. </li>
+                <li>Military End Users may assist via ground sensors or additional local collection (example grata, drones, HUMINT teams) for fusion. </li>
+        </div>
+        <div class="uc-text">
+                <h4>Processing</h4>
+                <p>Objective: Convert raw data into usable information.</p>
+                <p>Personnel Involved: </p>
+                <li>Spacecraft: may run edge-processing algorithms to triage or label raw data onboard before downlink. </li>
+                <li>Ground Station Operators use automated and human analysts to filter, decrypt, and categorize incoming data for exploitation. </li>
+                <li>Data Scientists/Intelligence Systems Engineers apply edge-processing and machine learning pipelines. </li>
+                <li>Cybersecurity Engineers manage encryption and security of data streams.</li>
+                <li>Military End Users may not directly process but receives categorized intel products for situational awareness. </li>
+        </div>
+        <div class="uc-text">
+                <h4>Exploitation</h4>
+                <p>Objective: Analyze data to derive actionable insights. </p>
+                <p>Personnel Involved:</p>
+                <li>Spacecraft plays a limited role; may generate metadata or confidence scores via onboard analytics.</li>
+                <li>Ground Station Operators conduct full-spectrum exploitation (IMINT, SIGINT, MASINT); supports fusion center products. </li>
+                <li>Intelligence Analysts, GEOINT Analysts, and SIGINT Analysts review imagery and signals.</li>
+                <li>Mission Systems Architects fuse multiple intel domains for decision support.</li>
+                <li>Military End Users consume exploited intel in the form of reports, alerts, visual overlays; uses it to adjust tactics or reposition.</li>
+        </div>
+        <div class="uc-text">
+                <h4>Dissemination</h4>
+                <p>Objective: Deliver finished intelligence to decision-makers in time to act. </p>
+                <p>Personnel Involved:</p>
+                <li>Spacecraft: Not applicable for dissemination, but may facilitate relay via comms satellite architecture.</li>
+                <li>Ground Station Operator/Collection Managers push final intel products to relevant units or command; ensures data matches classification protocols and urgency.</li>
+                <li>Military End User: Receives and integrates intel into mission planning; may provide feedback for intel refinement.</li>
+                <li>Watch Officers ensure timely notification to tactical operators.</li>
+                <li>Joint Staff K2/J6, ODNI Liaisons, and Targeting Officers coordinate dissemination across agencies.</li>
+        </div>
+        <div class="uc-text">
+                <h4></h4>
+                <p></p>
+                <p></p>
+                <li></li>
         </div>
     </div>
     <div class="up-arrow">
@@ -101,7 +218,7 @@
 <div class="copyright">
     <p>&copy; AstraLux 2025</p>
 </div>   
-        </footer>
-    </body>
-    </html>
-    </div> 
+</footer>
+    <script src="conceptandcapability.js"></script>
+</body>
+</html>
