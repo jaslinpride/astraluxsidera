@@ -245,11 +245,7 @@ nav .mainMenu li a:hover {
     color: #293241;
     font-size: 24px;
     font-weight: 2000;
-    margin-top: 20rem;
-}
-
-.ucimg {
-    display: flex;
+    margin-top: 24rem;
 }
 
 .uc {
@@ -259,12 +255,12 @@ nav .mainMenu li a:hover {
     background-position: center;
     background: #ffffff;
     opacity: 80%;
-    padding: 3rem;
+    padding: 1rem;
     width: 80%;
     margin: auto;
     justify-content: center;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 0.5rem;
     border: 5px solid #3d5a80;
 }
 
@@ -274,15 +270,90 @@ nav .mainMenu li a:hover {
     width: 50%;
 }
 
-.uc-text {
+.uc-st-one {
     text-align: left;
-    width: 60%;
-    line-height: 1;
+    width: 100%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 16px;
+    margin-bottom: 0.2rem;
+    margin-top: 1.5rem;
+}
+
+.uc-st-two {
+    text-align: left;
+    width: 100%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 14px;
+    margin-bottom: 0.2rem;
+    margin-top: 0.5rem;
+}
+
+.uc-objective {
+    text-align: left;
+    width: 100%;
+    line-height: 1.5;
     letter-spacing: 1px;
     color: #293241;
     font-size: 12px;
-    margin-bottom: 0.3rem;
+    margin-bottom: 1rem;
     font-weight: 500;
+}
+
+.uc-personnel {
+    text-align: left;
+    width: 100%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 12px;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.uc-body {
+    text-align: left;
+    width: 100%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 12px;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.uc-resource {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    line-height: 1.6;
+    text-align: center;
+    font-size: 16px;
+    color: #293241;
+    padding: 3rem;
+    gap: 5%;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.uc-resource img {
+    width: 3%;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 18px;
+    font-weight: 2000;
+    margin-top: 0.5rem;
+}
+
+.uc-link {
+    margin-top: 0.5rem;
+    text-align: center;
 }
 
 .author {
@@ -305,11 +376,18 @@ nav .mainMenu li a:hover {
 }
 
 .copyright {
-    text-align: center;
-    padding: 5rem;
     margin-top: 0.7rem;
-    color: #ffffff;
+    margin-bottom: 8rem;
+    line-height: 1.6;
+    text-align: center;
     font-size: 16px;
+    color: #ffffff;
+    padding: 3rem;
+    gap: 5%;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    font-weight: 500;
 }
 
 @keyframes bounce {
