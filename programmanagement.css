@@ -406,6 +406,7 @@ th {
 
 .wbsimg {
     display: flex;
+    margin-right: 2.5rem;
 }
 
 .wbs {

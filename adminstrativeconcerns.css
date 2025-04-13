@@ -239,13 +239,68 @@ nav .mainMenu li a:hover {
 
 .da-text {
     text-align: left;
-    width: 60%;
+    width: 100%;
     line-height: 1;
     letter-spacing: 1px;
     color: #293241;
     font-size: 12px;
     margin-bottom: 0.3rem;
     font-weight: 500;
+}
+
+.da-st-one {
+    text-align: left;
+    width: 100%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 18px;
+    margin-bottom: 0.1rem;
+    margin-top: 2rem;
+}
+
+.da-st-two {
+    text-align: left;
+    width: 100%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 12px;
+    margin-bottom: 0.2rem;
+    margin-top: 0.25rem;
+}
+
+.da-st-three {
+    text-align: left;
+    width: 100%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 14px;
+    margin-bottom: 0.1rem;
+    margin-top: 1rem;
+}
+
+.da-body {
+    text-align: left;
+    width: 100%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 12px;
+    margin-bottom: 0.75rem;
+    margin-top: 0.1rem;
+}
+
+.da-cdrls-list {
+    text-align: left;
+    width: 100%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 12px;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 .crr-title {
@@ -421,6 +476,17 @@ nav .mainMenu li a:hover {
     font-size: 12px;
     margin-bottom: 0.3rem;
     font-weight: 500;
+}
+
+.mcp-body {
+    text-align: left;
+    width: 100%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 14px;
+    margin-bottom: 0.2rem;
+    margin-top: 0.5rem;
 }
 
 table {
