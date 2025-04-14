@@ -453,6 +453,14 @@ th {
     font-weight: 500;
 }
 
+.hwciswci img {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 25%;
+    text-align: center;
+    margin: auto; 
+}
+
 .wbs-st-one {
     text-align: left;
     width: 100%;
