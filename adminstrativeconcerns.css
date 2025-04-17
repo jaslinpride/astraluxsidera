@@ -180,7 +180,7 @@ nav .mainMenu li a:hover {
 
 .acm-text {
     text-align: left;
-    width: 60%;
+    width: 100%;
     line-height: 1;
     letter-spacing: 1px;
     color: #293241;
@@ -209,6 +209,37 @@ nav .mainMenu li a:hover {
     font-size: 12px;
     margin-bottom: 0.75rem;
     margin-top: 0.1rem;
+}
+
+.acm-link {
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.acm-resource {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    line-height: 1.6;
+    text-align: center;
+    font-size: 16px;
+    color: #293241;
+    padding: 3rem;
+    gap: 5%;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.acm-resource img {
+    width: 3%;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 18px;
+    font-weight: 2000;
+    margin-top: 0.5rem;
 }
 
 .da-title {
