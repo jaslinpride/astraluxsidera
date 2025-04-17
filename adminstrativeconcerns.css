@@ -462,15 +462,26 @@ nav .mainMenu li a:hover {
     font-weight: 500;
 }
 
-.crr-body {
+.crr-body-one {
     text-align: left;
     width: 100%;
     line-height: 1.5;
     letter-spacing: 1px;
     color: #293241;
     font-size: 14px;
-    margin-bottom: 0.75rem;
-    margin-top: 0.1rem;
+    margin-bottom: 1.75rem;
+    margin-top: 0.25rem;
+}
+
+.crr-body-two {
+    text-align: left;
+    width: 100%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 14px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.75rem;
 }
 
 .crr-table {
@@ -596,15 +607,26 @@ nav .mainMenu li a:hover {
     font-weight: 500;
 }
 
-.mcp-body {
+.mcp-body-one {
     text-align: left;
     width: 100%;
     line-height: 1.5;
     letter-spacing: 1px;
     color: #293241;
     font-size: 14px;
-    margin-bottom: 0.2rem;
-    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.75rem;
+}
+
+.mcp-body-two {
+    text-align: left;
+    width: 100%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 14px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.75rem;
 }
 
 table {
