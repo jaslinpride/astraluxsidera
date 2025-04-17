@@ -189,6 +189,28 @@ nav .mainMenu li a:hover {
     font-weight: 500;
 }
 
+.acm-body {
+    text-align: left;
+    width: 100%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 12px;
+    margin-bottom: 0.75rem;
+    margin-top: 0.1rem;
+}
+
+.acm-list {
+    text-align: left;
+    width: 100%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 12px;
+    margin-bottom: 0.75rem;
+    margin-top: 0.1rem;
+}
+
 .da-title {
     text-align: center;
     width: 100%;
