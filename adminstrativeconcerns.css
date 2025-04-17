@@ -200,6 +200,12 @@ nav .mainMenu li a:hover {
     margin-top: 0.1rem;
 }
 
+.acm-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 0.75rem; 
+}
+
 .acm-list {
     text-align: left;
     width: 100%;
