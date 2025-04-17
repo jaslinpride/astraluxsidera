@@ -189,15 +189,26 @@ nav .mainMenu li a:hover {
     font-weight: 500;
 }
 
-.acm-body {
+.acm-body-one {
     text-align: left;
     width: 100%;
     line-height: 1.5;
     letter-spacing: 1px;
     color: #293241;
     font-size: 12px;
-    margin-bottom: 0.75rem;
-    margin-top: 0.1rem;
+    margin-bottom: 1.75rem;
+    margin-top: .25rem;
+}
+
+.acm-body-two {
+    text-align: left;
+    width: 100%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 12px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.75rem;
 }
 
 .acm-table {
