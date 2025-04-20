@@ -966,7 +966,7 @@ nav .mainMenu li a:hover {
         margin-bottom: 3rem;
         line-height: 1.6;
         text-align: center;
-        font-size: 16px;
+        font-size: 12px;
         color: #ffffff;
         padding: 3rem;
         gap: 5%;
@@ -976,7 +976,7 @@ nav .mainMenu li a:hover {
     }
     
     .author img {
-        width: 2.5%
+        width: 5%
     }
     
     .copyright {
@@ -984,7 +984,7 @@ nav .mainMenu li a:hover {
         padding: 5rem;
         margin-top: 0.7rem;
         color: #ffffff;
-        font-size: 16px;
+        font-size: 12px;
     }
 
     @keyframes bounce {
