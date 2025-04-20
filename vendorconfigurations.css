@@ -27,6 +27,14 @@ nav {
     font-size: 14px;
 }
 
+.openMenu {
+    display: none;
+}
+
+.closeMenu {
+    display: none;
+}
+
 nav .mainMenu {
     display: flex;
     gap: 9%;
