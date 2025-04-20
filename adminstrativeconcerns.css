@@ -1060,16 +1060,6 @@ tbody tr:hover {
         width: 50%;
     }
     
-    .da-title {
-        text-align: center;
-        width: 100%;
-        line-height: 1.5;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 24px;
-        font-weight: 2000;
-        margin-top: 20rem;
-    }
     
     .da-text {
         text-align: left;
