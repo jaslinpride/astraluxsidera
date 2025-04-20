@@ -273,8 +273,7 @@ nav .mainMenu li a:hover {
     line-height: 1.5;
     letter-spacing: 1px;
     color: #293241;
-    font-size: 24px;
-    font-weight: 2000;
+    font-size: 16px;
     margin-top: 20rem;
 }
 
@@ -302,17 +301,6 @@ nav .mainMenu li a:hover {
     margin-top: 1.7rem;
     margin-bottom: 1.7rem;
     width: 50%;
-}
-
-.da-title {
-    text-align: center;
-    width: 100%;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 24px;
-    font-weight: 2000;
-    margin-top: 20rem;
 }
 
 .da-text {
@@ -496,6 +484,38 @@ nav .mainMenu li a:hover {
     border-collapse: collapse;
     width: 80%;
     margin-top: 0.75rem;   
+}
+
+.crr-resource {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    line-height: 1.6;
+    text-align: center;
+    font-size: 12px;
+    color: #293241;
+    padding: 3rem;
+    gap: 5%;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.crr-resource img {
+    width: 5%;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 12px;
+    font-weight: 2000;
+    margin-top: 0.5rem;
+}
+
+.crr-link {
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 12px;
 }
 
 .bft-title {
@@ -892,8 +912,7 @@ tbody tr:hover {
         line-height: 1.5;
         letter-spacing: 1px;
         color: #293241;
-        font-size: 24px;
-        font-weight: 2000;
+        font-size: 16px;
         margin-top: 26rem;
     }
     
@@ -995,7 +1014,7 @@ tbody tr:hover {
     }
     
     .acm-resource img {
-        width: 3%;
+        width: 5%;
         text-align: center;
         line-height: 1.5;
         letter-spacing: 1px;
@@ -1011,8 +1030,7 @@ tbody tr:hover {
         line-height: 1.5;
         letter-spacing: 1px;
         color: #293241;
-        font-size: 24px;
-        font-weight: 2000;
+        font-size: 16px;
         margin-top: 20rem;
     }
     
@@ -1135,7 +1153,7 @@ tbody tr:hover {
     }
     
     .da-resource img {
-        width: 3%;
+        width: 5%;
         text-align: center;
         line-height: 1.5;
         letter-spacing: 1px;
@@ -1157,8 +1175,7 @@ tbody tr:hover {
         line-height: 1.5;
         letter-spacing: 1px;
         color: #293241;
-        font-size: 24px;
-        font-weight: 2000;
+        font-size: 16px;
         margin-top: 20rem;
     }
     
@@ -1186,16 +1203,6 @@ tbody tr:hover {
         margin-top: 1.7rem;
         margin-bottom: 1.7rem;
         width: 50%;
-    }
-    
-    .crr-title {
-        text-align: center;
-        width: 100%;
-        line-height: 1.5;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 24px;
-        font-weight: 2000;
     }
     
     .crr-text {
@@ -1236,6 +1243,38 @@ tbody tr:hover {
         width: 80%;
         margin-top: 0.75rem;   
     }
+
+    .crr-resource {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        line-height: 1.6;
+        text-align: center;
+        font-size: 12px;
+        color: #293241;
+        padding: 3rem;
+        gap: 5%;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        font-weight: 500;
+    }
+    
+    .crr-resource img {
+        width: 5%;
+        text-align: center;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        color: #293241;
+        font-size: 12px;
+        font-weight: 2000;
+        margin-top: 0.5rem;
+    }
+    
+    .crr-link {
+        margin-top: 0.5rem;
+        text-align: center;
+        font-size: 12px;
+    }
     
     .bft-title {
         text-align: center;
@@ -1243,8 +1282,7 @@ tbody tr:hover {
         line-height: 1.5;
         letter-spacing: 1px;
         color: #293241;
-        font-size: 24px;
-        font-weight: 2000;
+        font-size: 16px;
         margin-top: 20rem;
     }
     
@@ -1274,16 +1312,6 @@ tbody tr:hover {
         width: 50%;
     }
     
-    .bft-title {
-        text-align: center;
-        width: 100%;
-        line-height: 1.5;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 24px;
-        font-weight: 2000;
-    }
-    
     .bft-text {
         text-align: left;
         width: 60%;
@@ -1301,8 +1329,7 @@ tbody tr:hover {
         line-height: 1.5;
         letter-spacing: 1px;
         color: #293241;
-        font-size: 24px;
-        font-weight: 2000;
+        font-size: 16px;
         margin-top: 20rem;
     }
     
@@ -1330,17 +1357,6 @@ tbody tr:hover {
         margin-top: 1.7rem;
         margin-bottom: 1.7rem;
         width: 50%;
-    }
-    
-    .mcp-title {
-        text-align: center;
-        width: 100%;
-        line-height: 1.5;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 24px;
-        font-weight: 2000;
-        margin-top: 20rem;
     }
     
     .mcp-text {
@@ -1416,7 +1432,7 @@ tbody tr:hover {
     }
     
     .mcp-resource img {
-        width: 2.5%;
+        width: 5%;
         text-align: center;
         line-height: 1.5;
         letter-spacing: 1px;
@@ -1447,7 +1463,7 @@ tbody tr:hover {
     }
     
     .author img {
-        width: 2.5%
+        width: 5%;
     }
     
     .copyright {
