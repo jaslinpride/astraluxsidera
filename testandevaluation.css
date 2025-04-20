@@ -299,40 +299,7 @@ nav .mainMenu li a:hover {
     .up-arrow img {
         width: 55%;
     }
-    .te-welcome {
-        line-height: 1.6;
-        text-align: center;
-        font-size: 60px;
-        color: #ffffff;
-        padding: 0.5rem;
-        gap: 5%;
-        width: 100%;
-        margin: auto;
-        justify-content: center;
-        margin-top: 3rem;
-        font-weight: 1000;
-    }
     
-    .te-welcome-text {
-        margin-top: 5rem;
-    }
-    
-    .te-header {
-        line-height: 1.6;
-        text-align: center;
-        font-size: 24px;
-        color: #293241;
-        padding: 0.7rem;
-        gap: 5%;
-        width: 80%;
-        margin: auto;
-        justify-content: center;
-        margin-top: 3rem;
-    }
-    
-    .te-header p {
-        margin-top: 0.5rem;
-    }
     
     .te-welcoming {
         display: flex;
@@ -441,7 +408,7 @@ nav .mainMenu li a:hover {
         margin-bottom: 3rem;
         line-height: 1.6;
         text-align: center;
-        font-size: 16px;
+        font-size: 12px;
         color: #ffffff;
         padding: 3rem;
         gap: 5%;
@@ -459,7 +426,7 @@ nav .mainMenu li a:hover {
         padding: 5rem;
         margin-top: 0.7rem;
         color: #ffffff;
-        font-size: 16px;
+        font-size: 12px;
     }
 
     @keyframes bounce {
