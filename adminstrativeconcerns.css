@@ -995,7 +995,7 @@ tbody tr:hover {
     .acm-link {
         margin-top: 0.5rem;
         text-align: center;
-        font-size: 12px;
+        font-size: 11px;
     }
     
     .acm-resource {
@@ -1003,7 +1003,7 @@ tbody tr:hover {
         margin-bottom: 3rem;
         line-height: 1.6;
         text-align: center;
-        font-size: 12px;
+        font-size: 11px;
         color: #293241;
         padding: 3rem;
         gap: 5%;
@@ -1019,7 +1019,7 @@ tbody tr:hover {
         line-height: 1.5;
         letter-spacing: 1px;
         color: #293241;
-        font-size: 12px;
+        font-size: 11px;
         font-weight: 2000;
         margin-top: 0.5rem;
     }
@@ -1132,7 +1132,7 @@ tbody tr:hover {
         margin-bottom: 3rem;
         line-height: 1.6;
         text-align: center;
-        font-size: 12px;
+        font-size: 11px;
         color: #293241;
         padding: 3rem;
         gap: 5%;
@@ -1148,7 +1148,7 @@ tbody tr:hover {
         line-height: 1.5;
         letter-spacing: 1px;
         color: #293241;
-        font-size: 12px;
+        font-size: 11px;
         font-weight: 2000;
         margin-top: 0.5rem;
     }
@@ -1239,7 +1239,7 @@ tbody tr:hover {
         margin-bottom: 3rem;
         line-height: 1.6;
         text-align: center;
-        font-size: 12px;
+        font-size: 11px;
         color: #293241;
         padding: 3rem;
         gap: 5%;
@@ -1255,7 +1255,7 @@ tbody tr:hover {
         line-height: 1.5;
         letter-spacing: 1px;
         color: #293241;
-        font-size: 12px;
+        font-size: 11px;
         font-weight: 2000;
         margin-top: 0.5rem;
     }
@@ -1263,7 +1263,7 @@ tbody tr:hover {
     .crr-link {
         margin-top: 0.5rem;
         text-align: center;
-        font-size: 12px;
+        font-size: 11px;
     }
     
     .bft-title {
@@ -1411,7 +1411,7 @@ tbody tr:hover {
         margin-bottom: 3rem;
         line-height: 1.6;
         text-align: center;
-        font-size: 12px;
+        font-size: 11px;
         color: #293241;
         padding: 3rem;
         gap: 5%;
@@ -1427,7 +1427,7 @@ tbody tr:hover {
         line-height: 1.5;
         letter-spacing: 1px;
         color: #293241;
-        font-size: 12px;
+        font-size: 11px;
         font-weight: 2000;
         margin-top: 0.5rem;
     }
@@ -1435,7 +1435,7 @@ tbody tr:hover {
     .mcp-link {
         margin-top: 0.5rem;
         text-align: center;
-        font-size: 12px;
+        font-size: 11px;
     }
     
     .author {
@@ -1443,7 +1443,7 @@ tbody tr:hover {
         margin-bottom: 3rem;
         line-height: 1.6;
         text-align: center;
-        font-size: 12px;
+        font-size: 11px;
         color: #ffffff;
         padding: 3rem;
         gap: 5%;
@@ -1461,7 +1461,7 @@ tbody tr:hover {
         padding: 5rem;
         margin-top: 0.7rem;
         color: #ffffff;
-        font-size: 12px;
+        font-size: 11px;
     }
 
     @keyframes bounce {
