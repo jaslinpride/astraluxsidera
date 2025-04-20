@@ -1010,40 +1010,6 @@ th {
         margin-right: 2.5rem;
     }
     
-    .pm-welcome {
-        line-height: 1.6;
-        text-align: center;
-        font-size: 34px;
-        color: #ffffff;
-        padding: 0.5rem;
-        gap: 5%;
-        width: 80%;
-        margin: auto;
-        justify-content: center;
-        margin-top: 0.3rem;
-    }
-    
-    .pm-welcome-text {
-        margin-top: 3rem;
-    }
-    
-    .pm-header {
-        line-height: 1.6;
-        text-align: center;
-        font-size: 14px;
-        color: #293241;
-        padding: 0.7rem;
-        gap: 5%;
-        width: 70%;
-        margin: auto;
-        justify-content: center;
-        margin-top: 3rem;
-    }
-    
-    .pm-header p {
-        margin-top: 0.5rem;
-    }
-    
     .pm-welcome-img img {
         margin-top: 1.7rem;
         margin-bottom: 1.7rem;
