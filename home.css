@@ -454,8 +454,6 @@ nav .mainMenu li a:hover {
         gap: 5%;
         width: 100%;
         margin: auto;
-        justify-content: center;
-        font-weight: 500;
     }
     
     .author img {
@@ -474,7 +472,6 @@ nav .mainMenu li a:hover {
         width: 100%;
         margin: auto;
         justify-content: center;
-        font-weight: 500;
     }
     
     @keyframes bounce {
