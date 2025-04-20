@@ -14,6 +14,6 @@ function show(){
     mainMenu.style.top = "0";
 }
 
-function.close() {
+function close() {
     mainMenu.style.top = '-120%';
 }
