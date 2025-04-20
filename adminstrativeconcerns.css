@@ -711,15 +711,6 @@ tbody tr:hover {
     font-size: 16px;
 }
 
-@keyframes bounce {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-10px);
-    }
-}
-
 @media(max-width: 800px) {
     nav .mainMenu {
         background-color: white;
@@ -734,6 +725,7 @@ tbody tr:hover {
         animation: slideInFromRight 2s ease-out;
         transition: top 1.5s ease;
         display: none;
+        opacity: 80%;
     }
 
     .new-nav {
@@ -764,7 +756,8 @@ tbody tr:hover {
 
     .closeMenu img {
         width: 5%;
-        margin-left: 28rem;
+        margin-left: 6rem;
+        margin-top: 2rem;
     }
 
     .welcome-text{
@@ -793,7 +786,7 @@ tbody tr:hover {
     .up-arrow img {
         width: 55%;
     }
-    
+
     .ac-welcome {
         line-height: 1.6;
         text-align: center;
@@ -1456,5 +1449,14 @@ tbody tr:hover {
         margin-top: 0.7rem;
         color: #ffffff;
         font-size: 12px;
+    }
+
+    @keyframes bounce {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
     }
 }

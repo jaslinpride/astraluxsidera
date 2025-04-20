@@ -239,6 +239,7 @@ nav .mainMenu li a:hover {
         animation: slideInFromRight 2s ease-out;
         transition: top 1.5s ease;
         display: none;
+        opacity: 80%;
     }
 
     .new-nav {
@@ -270,5 +271,32 @@ nav .mainMenu li a:hover {
     .closeMenu img {
         width: 5%;
         margin-left: 28rem;
+    }
+
+    .welcome-text{
+        font-size: 34px;
+    }
+
+    .header {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .down-arrow {
+        margin-top: 14rem;
+        animation: bounce 2s infinite;
+    }
+
+    .down-arrow img {
+        width: 65%;
+    }
+    
+    .up-arrow {
+        margin-top: 12rem;
+        animation: bounce 2s infinite;
+    }
+
+    .up-arrow img {
+        width: 55%;
     }
 }
