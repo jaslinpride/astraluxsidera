@@ -319,20 +319,28 @@ nav .mainMenu li a:hover {
     }
 
     .header {
-        font-size: 12px;
+        font-size: 14px;
+        width: 100%;
     }
 
     .down-arrow {
         margin-top: 14rem;
         animation: bounce 2s infinite;
-        width: 3%;
+    }
+
+    .down-arrow img {
+        width: 65%;
     }
     
     .up-arrow {
         margin-top: 12rem;
         animation: bounce 2s infinite;
-        width: 3%;
     }
+
+    .up-arrow img {
+        width: 55%;
+    }
+
     .toc {
         line-height: 1.4;
         color: #293241;
