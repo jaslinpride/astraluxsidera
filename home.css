@@ -308,6 +308,7 @@ nav .mainMenu li a:hover {
     .openMenu img {
         width: 10%;
         margin-left: 18rem;
+        margin-top: 0.5rem;
     }
 
     .closeMenu img {
