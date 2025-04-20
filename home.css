@@ -281,6 +281,7 @@ nav .mainMenu li a:hover {
         animation: slideInFromRight 2s ease-out;
         transition: top 1.5s ease;
         display: none;
+        opacity: 80%;
     }
 
     .new-nav {
