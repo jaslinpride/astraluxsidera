@@ -390,15 +390,6 @@ nav .mainMenu li a:hover {
     font-weight: 500;
 }
 
-@keyframes bounce {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-10px);
-    }
-}
-
 @media(max-width: 800px) {
     nav .mainMenu {
         background-color: white;
@@ -444,7 +435,8 @@ nav .mainMenu li a:hover {
 
     .closeMenu img {
         width: 5%;
-        margin-left: 28rem;
+        margin-left: 6rem;
+        margin-top: 2rem;
     }
 
     .welcome-text{
@@ -472,5 +464,14 @@ nav .mainMenu li a:hover {
 
     .up-arrow img {
         width: 55%;
+    }
+
+    @keyframes bounce {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
     }
 }
