@@ -402,7 +402,7 @@ nav .mainMenu li a:hover {
     nav .mainMenu {
         background-color: white;
         width: 80%;
-        height: 26vh;
+        height: 36vh;
         gap: 0%; 
         flex-direction: column;
         position: fixed;
