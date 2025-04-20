@@ -221,7 +221,7 @@ nav .mainMenu li a:hover {
 
 .acm-table {
     border-collapse: collapse;
-    width: 80%;
+    width: 40%;
     margin-top: 0.75rem; 
 }
 
@@ -482,7 +482,7 @@ nav .mainMenu li a:hover {
 
 .crr-table {
     border-collapse: collapse;
-    width: 80%;
+    width: 70%;
     margin-top: 0.75rem;   
 }
 
@@ -657,9 +657,9 @@ nav .mainMenu li a:hover {
     margin-top: 1.75rem;
 }
 
-table {
+.mcp-table {
     border-collapse: collapse;
-    width: 80%;
+    width: 50%;
     margin-top: 0.75rem;
 }
 
