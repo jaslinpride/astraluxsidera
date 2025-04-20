@@ -1223,7 +1223,7 @@ th {
     }
     
     .sow-resource img {
-        width: 2.5%;
+        width: 5%;
         text-align: center;
         line-height: 1.5;
         letter-spacing: 1px;
@@ -1462,7 +1462,7 @@ th {
     }
     
     .wbs-resource img {
-        width: 3%;
+        width: 5%;
         text-align: center;
         line-height: 1.5;
         letter-spacing: 1px;
@@ -1542,7 +1542,7 @@ th {
     }
     
     .ims-resource img {
-        width: 3%;
+        width: 5%;
         text-align: center;
         line-height: 1.5;
         letter-spacing: 1px;
@@ -1616,7 +1616,7 @@ th {
     }
     
     .semp-resource img {
-        width: 3%;
+        width: 5%;
         text-align: center;
         line-height: 1.5;
         letter-spacing: 1px;
@@ -1690,7 +1690,7 @@ th {
     }
     
     .ro-resource img {
-        width: 3%;
+        width: 5%;
         text-align: center;
         line-height: 1.5;
         letter-spacing: 1px;
@@ -1786,11 +1786,10 @@ th {
         width: 100%;
         margin: auto;
         justify-content: center;
-        font-weight: 500;
     }
     
     .author img {
-        width: 3%
+        width: 5%
     }
     
     .copyright {
