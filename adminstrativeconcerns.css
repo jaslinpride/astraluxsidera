@@ -491,7 +491,7 @@ nav .mainMenu li a:hover {
     margin-bottom: 3rem;
     line-height: 1.6;
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
     color: #293241;
     padding: 3rem;
     gap: 5%;
@@ -502,12 +502,12 @@ nav .mainMenu li a:hover {
 }
 
 .crr-resource img {
-    width: 5%;
+    width: 3%;
     text-align: center;
     line-height: 1.5;
     letter-spacing: 1px;
     color: #293241;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 2000;
     margin-top: 0.5rem;
 }
@@ -515,7 +515,7 @@ nav .mainMenu li a:hover {
 .crr-link {
     margin-top: 0.5rem;
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .bft-title {
