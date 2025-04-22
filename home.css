@@ -148,7 +148,7 @@ nav .mainMenu li a:hover {
     color: #293241;
     font-size: 20px;
     font-weight: 2000;
-    margin-top: 20rem;
+    margin-top: 24rem;
 }
 
 .tableofcontents-intro-title {
@@ -307,8 +307,9 @@ nav .mainMenu li a:hover {
 
     .openMenu img {
         width: 10%;
-        margin-left: 24rem;
-        margin-top: 0.5rem;
+        margin: auto;
+        justify-content: center;
+        margin-top: 1rem;
     }
 
     .closeMenu img {
@@ -319,7 +320,7 @@ nav .mainMenu li a:hover {
 
     .welcome-text{
         font-size: 21px;
-        margin-left: 7rem;
+        margin-left: 6rem;
     }
 
     .header {
@@ -331,20 +332,23 @@ nav .mainMenu li a:hover {
     .down-arrow {
         margin-top: 12rem;
         animation: bounce 2s infinite;
+        justify-content: center;
+        text-align: center;
     }
 
     .down-arrow img {
         width: 55%;
+        justify-content: center;
+        text-align: center;
     }
     
     .up-arrow {
-        margin-top: 0.5rem;
+        margin-top: 0.25rem;
         animation: bounce 2s infinite;
     }
 
     .up-arrow img {
-        width: 45%;
-        margin-left: 1rem;
+        width: 55%;
     }
 
     .toc {
@@ -353,15 +357,15 @@ nav .mainMenu li a:hover {
         background-size: cover;
         background-position: center;
         background: #ffffff;
-        opacity: 90%;
+        opacity: 80%;
         padding: 2rem;
-        width: 80%;
+        width: 100%;
         margin: auto;
         justify-content: center;
         margin-top: 3rem;
         margin-bottom: 3rem;
-        margin-left: 5rem;
-        border: 5px solid #3d5a80;
+        margin-left: 6rem;
+        border: 3px solid #3d5a80;
     }
     
     .tableofcontents-title {
@@ -371,7 +375,8 @@ nav .mainMenu li a:hover {
         letter-spacing: 1px;
         color: #293241;
         font-size: 14px;
-        margin-top: 20rem;
+        margin-top: 24rem;
+        margin-left: 1rem;
     }
     
     .tableofcontents-intro-title {
