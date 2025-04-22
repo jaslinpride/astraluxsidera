@@ -320,34 +320,40 @@ nav .mainMenu li a:hover {
     }
 
     .welcome-text{
-        font-size: 16px;
-        margin-left: 6rem;
+        font-size: 22px;
+        width: 100%;
+        margin-left: 1rem;
+        text-align: center;
     }
 
     .header {
-        font-size: 10px;
+        font-size: 12px;
         width: 100%;
-        margin-left: 3rem;
+        margin-left: 1rem;
+        text-align: center;
     }
 
     .down-arrow {
-        margin-top: 12rem;
+        margin-top: 2rem;
         animation: bounce 2s infinite;
-        justify-content: center;
         text-align: center;
     }
 
     .down-arrow img {
-        width: 55%;
+        width: 5%;
+        margin-top: 1rem;
     }
     
     .up-arrow {
-        margin-top: 0.25rem;
+        margin-top: 15rem;
+        margin-bottom: 1rem;
         animation: bounce 2s infinite;
+        text-align: center;
     }
 
     .up-arrow img {
-        width: 70%;
+        width: 5%;
+        margin-top: 1rem;
     }
 
     .toc {
