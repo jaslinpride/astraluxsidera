@@ -318,11 +318,11 @@ nav .mainMenu li a:hover {
     }
 
     .welcome-text{
-        font-size: 26px;
+        font-size: 22px;
     }
 
     .header {
-        font-size: 14px;
+        font-size: 11px;
         width: 100%;
     }
 
@@ -366,7 +366,7 @@ nav .mainMenu li a:hover {
         line-height: 1.5;
         letter-spacing: 1px;
         color: #293241;
-        font-size: 16px;
+        font-size: 14px;
         margin-top: 20rem;
     }
     
@@ -376,7 +376,7 @@ nav .mainMenu li a:hover {
         line-height: 1.5;
         letter-spacing: 1px;
         color: #293241;
-        font-size: 14px;
+        font-size: 12px;
         margin-bottom: 0.2rem;
     }
     
@@ -397,7 +397,7 @@ nav .mainMenu li a:hover {
         line-height: 1;
         letter-spacing: 1px;
         color: #293241;
-        font-size: 11px;
+        font-size: 10px;
         margin-bottom: .75rem;
         font-weight: 500;
     }
@@ -408,7 +408,7 @@ nav .mainMenu li a:hover {
         line-height: 1;
         letter-spacing: 1px;
         color: #293241;
-        font-size: 12px;
+        font-size: 11px;
         margin-bottom: 0.05rem;
     }
     
@@ -418,7 +418,7 @@ nav .mainMenu li a:hover {
         line-height: 1;
         letter-spacing: 1px;
         color: #293241;
-        font-size: 11px;
+        font-size: 10px;
         margin-bottom: 0.3rem;
         font-weight: 500;
     }
@@ -429,7 +429,7 @@ nav .mainMenu li a:hover {
         line-height: 1;
         letter-spacing: 1px;
         color: #293241;
-        font-size: 12px;
+        font-size: 11px;
         margin-bottom: 0.05rem;
     }
     
@@ -438,7 +438,7 @@ nav .mainMenu li a:hover {
         line-height: 1;
         letter-spacing: 1px;
         color: #293241;
-        font-size: 11px;
+        font-size: 10px;
         margin-bottom: 1rem;
         font-weight: 500;
     }
@@ -448,7 +448,7 @@ nav .mainMenu li a:hover {
         margin-bottom: 3rem;
         line-height: 1.6;
         text-align: center;
-        font-size: 12px;
+        font-size: 10px;
         color: #ffffff;
         padding: 3rem;
         gap: 5%;
@@ -457,7 +457,7 @@ nav .mainMenu li a:hover {
     }
     
     .author img {
-        width: 5%
+        width: 4%
     }
     
     .copyright {
@@ -465,7 +465,7 @@ nav .mainMenu li a:hover {
         margin-bottom: 8rem;
         line-height: 1.6;
         text-align: center;
-        font-size: 12px;
+        font-size: 10px;
         color: #ffffff;
         padding: 3rem;
         gap: 5%;
