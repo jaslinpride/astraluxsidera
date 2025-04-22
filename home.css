@@ -320,7 +320,7 @@ nav .mainMenu li a:hover {
     }
 
     .welcome-text{
-        font-size: 17px;
+        font-size: 16px;
         margin-left: 6rem;
     }
 
@@ -339,8 +339,6 @@ nav .mainMenu li a:hover {
 
     .down-arrow img {
         width: 55%;
-        justify-content: center;
-        text-align: center;
     }
     
     .up-arrow {
@@ -349,7 +347,7 @@ nav .mainMenu li a:hover {
     }
 
     .up-arrow img {
-        width: 55%;
+        width: 70%;
     }
 
     .toc {
