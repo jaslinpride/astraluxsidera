@@ -1363,6 +1363,20 @@ th {
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
     }
+
+    .designreviewpic img {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        width: 70%;
+        text-align: center;
+        margin: auto; 
+    }
+
+    .designreviewpic {
+        text-align: center;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
     
     .wbs-st-one {
         text-align: left;
