@@ -486,6 +486,20 @@ th {
     margin-bottom: 1.5rem;
 }
 
+.depic img {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 90%;
+    text-align: center;
+    margin: auto; 
+}
+
+.depic {
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;  
+}
+
 .wbs-st-one {
     text-align: left;
     width: 100%;
@@ -1390,6 +1404,20 @@ th {
         text-align: center;
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
+    }
+
+    .depic img {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        width: 55%;
+        text-align: center;
+        margin: auto; 
+    }
+
+    .depic {
+        text-align: center;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;  
     }
     
     .wbs-st-one {
