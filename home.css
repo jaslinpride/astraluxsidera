@@ -307,7 +307,7 @@ nav .mainMenu li a:hover {
 
     .openMenu img {
         width: 10%;
-        margin-left: 18rem;
+        margin-left: 24rem;
         margin-top: 0.5rem;
     }
 
@@ -318,12 +318,14 @@ nav .mainMenu li a:hover {
     }
 
     .welcome-text{
-        font-size: 22px;
+        font-size: 21px;
+        margin-left: 7rem;
     }
 
     .header {
         font-size: 11px;
         width: 100%;
+        margin-left: 3rem;
     }
 
     .down-arrow {
@@ -351,7 +353,7 @@ nav .mainMenu li a:hover {
         background-size: cover;
         background-position: center;
         background: #ffffff;
-        opacity: 80%;
+        opacity: 90%;
         padding: 2rem;
         width: 80%;
         margin: auto;
