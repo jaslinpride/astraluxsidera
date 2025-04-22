@@ -104,7 +104,6 @@ nav .mainMenu li a:hover {
 }
 
 .tocimg {
-    display: flex;
     margin-right: 2.5rem;
 }
 
@@ -346,7 +345,6 @@ nav .mainMenu li a:hover {
     
     .up-arrow {
         margin-top: 15rem;
-        margin-bottom: 1rem;
         animation: bounce 2s infinite;
         text-align: center;
     }
@@ -364,12 +362,11 @@ nav .mainMenu li a:hover {
         background: #ffffff;
         opacity: 80%;
         padding: 2rem;
-        width: 130%;
+        width: 80%;
         margin: auto;
         justify-content: center;
         margin-top: 3rem;
         margin-bottom: 3rem;
-        margin-left: 6rem;
         border: 3px solid #3d5a80;
     }
     
@@ -380,7 +377,7 @@ nav .mainMenu li a:hover {
         letter-spacing: 1px;
         color: #293241;
         font-size: 14px;
-        margin-top: 24rem;
+        margin-top: 1rem;
         margin-left: 1rem;
     }
     
