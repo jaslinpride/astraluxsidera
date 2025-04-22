@@ -282,6 +282,7 @@ nav .mainMenu li a:hover {
         transition: top 1.5s ease;
         display: none;
         opacity: 80%;
+        margin-left: 2rem;
     }
 
     .new-nav {
@@ -319,12 +320,12 @@ nav .mainMenu li a:hover {
     }
 
     .welcome-text{
-        font-size: 18px;
+        font-size: 17px;
         margin-left: 6rem;
     }
 
     .header {
-        font-size: 11px;
+        font-size: 10px;
         width: 100%;
         margin-left: 3rem;
     }
@@ -359,7 +360,7 @@ nav .mainMenu li a:hover {
         background: #ffffff;
         opacity: 80%;
         padding: 2rem;
-        width: 100%;
+        width: 130%;
         margin: auto;
         justify-content: center;
         margin-top: 3rem;
