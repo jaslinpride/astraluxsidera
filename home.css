@@ -282,6 +282,8 @@ nav .mainMenu li a:hover {
         display: none;
         opacity: 80%;
         margin-left: 2rem;
+        justify-content: center;
+        text-align: center;
     }
 
     .new-nav {
@@ -299,6 +301,8 @@ nav .mainMenu li a:hover {
 
     .openMenu {
         display: grid;
+        margin: auto;
+        justify-content: center;
     }
 
     .closeMenu {
@@ -307,9 +311,9 @@ nav .mainMenu li a:hover {
 
     .openMenu img {
         width: 10%;
+        margin-top: 1rem;
         margin: auto;
         justify-content: center;
-        margin-top: 1rem;
     }
 
     .closeMenu img {
@@ -321,14 +325,12 @@ nav .mainMenu li a:hover {
     .welcome-text{
         font-size: 22px;
         width: 100%;
-        margin-left: 1rem;
         text-align: center;
     }
 
     .header {
         font-size: 12px;
         width: 100%;
-        margin-left: 1rem;
         text-align: center;
     }
 
@@ -336,22 +338,23 @@ nav .mainMenu li a:hover {
         margin-top: 2rem;
         animation: bounce 2s infinite;
         text-align: center;
+        margin: auto;
+        justify-content: center;
     }
 
     .down-arrow img {
         width: 5%;
-        margin-top: 1rem;
     }
     
     .up-arrow {
-        margin-top: 15rem;
+        margin-top: 1rem;
         animation: bounce 2s infinite;
         text-align: center;
+        justify-content: center;
     }
 
     .up-arrow img {
         width: 5%;
-        margin-top: 1rem;
     }
 
     .toc {
@@ -377,7 +380,7 @@ nav .mainMenu li a:hover {
         letter-spacing: 1px;
         color: #293241;
         font-size: 14px;
-        margin-top: 1rem;
+        margin-top: 24rem;
         margin-left: 1rem;
     }
     
