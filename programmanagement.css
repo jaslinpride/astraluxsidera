@@ -1336,6 +1336,20 @@ th {
         font-weight: 500;
     }
     
+    .systempic img {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        width: 35%;
+        text-align: center;
+        margin: auto; 
+    }
+    
+    .systempic {
+        text-align: center;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
     .hwciswci img {
         margin-top: 3rem;
         margin-bottom: 3rem;
