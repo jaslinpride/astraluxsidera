@@ -472,6 +472,20 @@ th {
     margin-bottom: 1.5rem;
 }
 
+.designreviewpic img {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 90%;
+    text-align: center;
+    margin: auto; 
+}
+
+.designreviewpic {
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
 .wbs-st-one {
     text-align: left;
     width: 100%;
@@ -1367,7 +1381,7 @@ th {
     .designreviewpic img {
         margin-top: 3rem;
         margin-bottom: 3rem;
-        width: 70%;
+        width: 55%;
         text-align: center;
         margin: auto; 
     }
