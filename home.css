@@ -327,21 +327,22 @@ nav .mainMenu li a:hover {
     }
 
     .down-arrow {
-        margin-top: 14rem;
-        animation: bounce 2s infinite;
-    }
-
-    .down-arrow img {
-        width: 65%;
-    }
-    
-    .up-arrow {
         margin-top: 12rem;
         animation: bounce 2s infinite;
     }
 
-    .up-arrow img {
+    .down-arrow img {
         width: 55%;
+    }
+    
+    .up-arrow {
+        margin-top: 0.5rem;
+        animation: bounce 2s infinite;
+    }
+
+    .up-arrow img {
+        width: 45%;
+        margin-left: 1rem;
     }
 
     .toc {
@@ -351,12 +352,13 @@ nav .mainMenu li a:hover {
         background-position: center;
         background: #ffffff;
         opacity: 80%;
-        padding: 3rem;
+        padding: 2rem;
         width: 80%;
         margin: auto;
         justify-content: center;
         margin-top: 3rem;
         margin-bottom: 3rem;
+        margin-left: 5rem;
         border: 5px solid #3d5a80;
     }
     
