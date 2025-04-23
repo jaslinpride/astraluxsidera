@@ -114,13 +114,27 @@ nav .mainMenu li a:hover {
 }
 
 .down-arrow {
-    margin-top: 14rem;
+    margin-top: 2rem;
     animation: bounce 2s infinite;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.down-arrow img {
+    width: 10%;
 }
 
 .up-arrow {
-    margin-top: 12rem;
+    margin-top: 1rem;
     animation: bounce 2s infinite;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.up-arrow img {
+    width: 10%;
 }
 
 .toc {
@@ -300,8 +314,7 @@ nav .mainMenu li a:hover {
     }
 
     .openMenu {
-        display: grid;
-        margin: auto;
+        margin: center;
         justify-content: center;
     }
 
@@ -312,7 +325,8 @@ nav .mainMenu li a:hover {
     .openMenu img {
         width: 10%;
         margin-top: 3rem;
-        margin: auto;
+        text-align: center;
+        margin: center;
         justify-content: center;
     }
 
@@ -349,7 +363,8 @@ nav .mainMenu li a:hover {
     .up-arrow {
         margin-top: 1rem;
         animation: bounce 2s infinite;
-        text-align: center;
+        position: fixed;
+        display: flex;
         justify-content: center;
     }
 
