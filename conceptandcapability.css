@@ -116,23 +116,6 @@ nav .mainMenu li a:hover {
     margin-top: 3rem;
 }
 
-.cc-header {
-    line-height: 1.6;
-    text-align: center;
-    font-size: 24px;
-    color: #293241;
-    padding: 0.7rem;
-    gap: 5%;
-    width: 70%;
-    margin: auto;
-    justify-content: center;
-    margin-top: 3rem;
-}
-
-.cc-header p {
-    margin-top: 0.5rem;
-}
-
 .cc-welcome-img img {
     margin-top: 1.7rem;
     margin-bottom: 1.7rem;
@@ -494,11 +477,11 @@ nav .mainMenu li a:hover {
     .cc-header {
         line-height: 1.6;
         text-align: center;
-        font-size: 12px;
+        font-size: 14px;
         color: #293241;
         padding: 0.7rem;
         gap: 5%;
-        width: 80%;
+        width: 100%;
         margin: auto;
         justify-content: center;
         margin-top: 3rem;
@@ -718,7 +701,7 @@ nav .mainMenu li a:hover {
         margin-bottom: 3rem;
         line-height: 1.6;
         text-align: center;
-        font-size: 12px;
+        font-size: 11px;
         color: #293241;
         padding: 3rem;
         gap: 5%;
@@ -734,7 +717,7 @@ nav .mainMenu li a:hover {
         line-height: 1.5;
         letter-spacing: 1px;
         color: #293241;
-        font-size: 18px;
+        font-size: 11px;
         font-weight: 2000;
         margin-top: 0.5rem;
     }
@@ -742,7 +725,7 @@ nav .mainMenu li a:hover {
     .uc-link {
         margin-top: 0.5rem;
         text-align: center;
-        font-size: 12px;
+        font-size: 11px;
     }
     
     .author {
@@ -750,7 +733,7 @@ nav .mainMenu li a:hover {
         margin-bottom: 3rem;
         line-height: 1.6;
         text-align: center;
-        font-size: 12px;
+        font-size: 11px;
         color: #ffffff;
         padding: 3rem;
         gap: 5%;
@@ -769,7 +752,7 @@ nav .mainMenu li a:hover {
         margin-bottom: 8rem;
         line-height: 1.6;
         text-align: center;
-        font-size: 12px;
+        font-size: 11px;
         color: #ffffff;
         padding: 3rem;
         gap: 5%;
