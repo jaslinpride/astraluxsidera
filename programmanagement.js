@@ -8,31 +8,13 @@ const closeMenu = document.querySelector('.closeMenu');
 openMenu.addEventListener('click', show);
 closeMenu.addEventListener('click', close);
 
+const images = document.querySelectorAll('.image-container img');
+const nextArrow = document.querySelector('next-arrow');
+let currentImage = 0;
 
-<script>
-  const pages = ["SOW-page-onejpg.jpg", "SOW-page-two.jpg", "SOW-page-three.jpg"];
-  let currentPage = 0;
-
-  function updatePage() {
-    const img = document.getElementById("book-page");
-    img.style.transform = "rotateY(10deg)";
-    setTimeout(() => {
-      img.src = pages[currentPage];
-      img.style.transform = "rotateY(0deg)";
-    }, 150);
-  }
-
-  function nextPage() {
-    if (currentPage < pages.length - 1) {
-      currentPage++;
-      updatePage();
-    }
-  }
-
-  function prevPage() {
-    if (currentPage > 0) {
-      currentPage--;
-      updatePage();
-    }
-  }
-</script>
+nextArrow.addEventListener('click', () => {
+    currentImage = (currentImage + 1) % images.length;
+    const translateX = -currentImage * 100;
+    document.querySelector('.image-container').style.transform =
+    `translateX(${translateX}%)`;
+})

@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background-size: cover;
     background-position: center;
@@ -174,20 +175,30 @@ nav .mainMenu li a:hover {
     margin-top: 24rem;
 }
 
-.page-viewer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
+.page-viewer{
+    position: relative;
 }
-  
-#book-page {
-    width: 600px;
-    height: auto;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-    border-radius: 10px;
-    transition: transform 0.5s ease;
+
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.next-arrow {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 1s ease;
 }
   
 .nav-button {
@@ -318,170 +329,6 @@ nav .mainMenu li a:hover {
     font-size: 24px;
     font-weight: 2000;
     margin-top: 24rem;
-}
-
-.wbsimg {
-    display: flex;
-    margin-right: 2.5rem;
-}
-
-.wbs {
-    line-height: 1.4;
-    color: #293241;
-    background-size: cover;
-    background-position: center;
-    background: #ffffff;
-    opacity: 80%;
-    padding: 1rem;
-    width: 80%;
-    margin: auto;
-    justify-content: center;
-    margin-top: 3rem;
-    margin-bottom: 0.5rem;
-    border: 5px solid #3d5a80;
-}
-
-.wbs-img img {
-    margin-top: 1.7rem;
-    margin-bottom: 1.7rem;
-    width: 50%;
-}
-
-.wbs-text {
-    text-align: left;
-    width: 100%;
-    line-height: 1;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 12px;
-    margin-bottom: 0.3rem;
-    font-weight: 500;
-}
-
-.wbs-body {
-    text-align: left;
-    width: 100%;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 12px;
-    margin-bottom: 0.3rem;
-    font-weight: 500;
-}
-
-.systempic img {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    width: 45%;
-    text-align: center;
-    margin: auto; 
-}
-
-.systempic {
-    text-align: center;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-
-.hwciswci img {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    width: 25%;
-    text-align: center;
-    margin: auto; 
-}
-
-.hwciswci {
-    text-align: center;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-
-.designreviewpic img {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    width: 90%;
-    text-align: center;
-    margin: auto; 
-}
-
-.designreviewpic {
-    text-align: center;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-
-.depic img {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    width: 90%;
-    text-align: center;
-    margin: auto; 
-}
-
-.depic {
-    text-align: center;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;  
-}
-
-.wbs-st-one {
-    text-align: left;
-    width: 100%;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 16px;
-    margin-bottom: 0.2rem;
-    margin-top: 1.5rem;
-}
-
-.wbs-st-two {
-    text-align: left;
-    width: 100%;
-    line-height: 1;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 14px;
-    margin-bottom: 0.2rem;
-}
-
-.wbs-jira {
-    text-align: left;
-    width: 100%;
-    line-height: 1;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 12px;
-    margin-bottom: 0.3rem;
-    font-weight: 500;
-}
-
-.oowbs img {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    width: 80%; 
-    margin: auto;
-}
-
-.oowbs {
-    text-align: center;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-
-.dowbs img {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    width: 80%;
-    text-align: center;
-    margin: auto;
-}
-
-.dowbs {
-    text-align: center;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
 }
 
 .wbs-resource {
@@ -966,13 +813,6 @@ nav .mainMenu li a:hover {
         width: 50%;
     }
     
-    .sow-title {
-        margin-top: 8rem;
-        text-align: center;
-        font-size: 16px;
-        color: #ffffff;
-    }
-    
     .down-arrow {
         margin-top: 14rem;
         animation: bounce 2s infinite;
@@ -993,35 +833,35 @@ nav .mainMenu li a:hover {
         line-height: 1.5;
         letter-spacing: 1px;
         color: #293241;
-        font-size: 24px;
+        font-size: 16px;
         font-weight: 2000;
         margin-top: 24rem;
     }
     
-    .page-viewer {
+    .page-viewer{
+        position: relative;
+    }
+    
+    .image-container {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        padding: 20px;
     }
-      
-    #book-page {
-        width: 600px;
-        height: auto;
-        box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-        border-radius: 10px;
-        transition: transform 0.5s ease;
+    
+    .image-container img {
+        width: 80%;
+        height: 80%;
+        object-fit: cover;
     }
-      
-    .nav-button {
-        font-size: 24px;
-        padding: 10px 15px;
-        cursor: pointer;
-        background-color: #eee;
+    
+    .next-arrow {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        background-color: transparent;
         border: none;
-        border-radius: 5px;
-        transition: background-color 0.3s;
+        font-size: 24px;
+        cursor: pointer;
+        transition: 1s ease;
     }
       
     .nav-button:hover {
@@ -1142,170 +982,6 @@ nav .mainMenu li a:hover {
         font-size: 16px;
         font-weight: 2000;
         margin-top: 24rem;
-    }
-    
-    .wbsimg {
-        display: flex;
-        margin-right: 2.5rem;
-    }
-    
-    .wbs {
-        line-height: 1.4;
-        color: #293241;
-        background-size: cover;
-        background-position: center;
-        background: #ffffff;
-        opacity: 80%;
-        padding: 1rem;
-        width: 90%;
-        margin: auto;
-        justify-content: center;
-        margin-top: 3rem;
-        margin-bottom: 0.5rem;
-        border: 5px solid #3d5a80;
-    }
-    
-    .wbs-img img {
-        margin-top: 1.7rem;
-        margin-bottom: 1.7rem;
-        width: 50%;
-    }
-    
-    .wbs-text {
-        text-align: left;
-        width: 100%;
-        line-height: 1;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 11px;
-        margin-bottom: 0.3rem;
-        font-weight: 500;
-    }
-    
-    .wbs-body {
-        text-align: left;
-        width: 100%;
-        line-height: 1.5;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 11px;
-        margin-bottom: 0.3rem;
-        font-weight: 500;
-    }
-    
-    .systempic img {
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        width: 50%;
-        text-align: center;
-        margin: auto; 
-    }
-    
-    .systempic {
-        text-align: center;
-        margin-top: 1.5rem;
-        margin-bottom: 1.5rem;
-    }
-
-    .hwciswci img {
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        width: 25%;
-        text-align: center;
-        margin: auto; 
-    }
-    
-    .hwciswci {
-        text-align: center;
-        margin-top: 1.5rem;
-        margin-bottom: 1.5rem;
-    }
-
-    .designreviewpic img {
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        width: 55%;
-        text-align: center;
-        margin: auto; 
-    }
-
-    .designreviewpic {
-        text-align: center;
-        margin-top: 1.5rem;
-        margin-bottom: 1.5rem;
-    }
-
-    .depic img {
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        width: 55%;
-        text-align: center;
-        margin: auto; 
-    }
-
-    .depic {
-        text-align: center;
-        margin-top: 1.5rem;
-        margin-bottom: 1.5rem;  
-    }
-    
-    .wbs-st-one {
-        text-align: left;
-        width: 100%;
-        line-height: 1.5;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 14px;
-        margin-bottom: 0.2rem;
-        margin-top: 1.5rem;
-    }
-    
-    .wbs-st-two {
-        text-align: left;
-        width: 100%;
-        line-height: 1;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 13px;
-        margin-bottom: 0.2rem;
-    }
-    
-    .wbs-jira {
-        text-align: left;
-        width: 100%;
-        line-height: 1;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 11px;
-        margin-bottom: 0.3rem;
-        font-weight: 500;
-    }
-    
-    .oowbs img {
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        width: 80%; 
-        margin: auto;
-    }
-    
-    .oowbs {
-        text-align: center;
-        margin-top: 1.5rem;
-        margin-bottom: 1.5rem;
-    }
-    
-    .dowbs img {
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        width: 80%;
-        text-align: center;
-        margin: auto;
-    }
-    
-    .dowbs {
-        text-align: center;
-        margin-top: 1.5rem;
-        margin-bottom: 1.5rem;
     }
     
     .wbs-resource {
