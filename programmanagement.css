@@ -121,13 +121,6 @@ nav .mainMenu li a:hover {
     width: 50%;
 }
 
-.sow-title {
-    margin-top: 8rem;
-    text-align: center;
-    font-size: 25px;
-    color: #ffffff;
-}
-
 .down-arrow {
     margin-top: 2rem;
     animation: bounce 2s infinite;
@@ -137,19 +130,19 @@ nav .mainMenu li a:hover {
 }
 
 .down-arrow img {
-    width: 10%;
+    width: 7%;
 }
 
 .up-arrow {
     margin-top: 1rem;
     animation: bounce 2s infinite;
-    position: fixed;
-    display: flex;
+    text-align: center;
+    margin: auto;
     justify-content: center;
 }
 
 .up-arrow img {
-    width: 10%;
+    width: 7%;
 }
 
 .nav-button {
