@@ -9,11 +9,30 @@ openMenu.addEventListener('click', show);
 closeMenu.addEventListener('click', close);
 
 
-function show(){
-    mainMenu.style.display = "flex";
-    mainMenu.style.top = "0";
-}
+<script>
+  const pages = ["SOW-page-onejpg.jpg", "SOW-page-two.jpg", "SOW-page-three.jpg"];
+  let currentPage = 0;
 
-function close() {
-    mainMenu.style.top = '-120%';
-}
+  function updatePage() {
+    const img = document.getElementById("book-page");
+    img.style.transform = "rotateY(10deg)";
+    setTimeout(() => {
+      img.src = pages[currentPage];
+      img.style.transform = "rotateY(0deg)";
+    }, 150);
+  }
+
+  function nextPage() {
+    if (currentPage < pages.length - 1) {
+      currentPage++;
+      updatePage();
+    }
+  }
+
+  function prevPage() {
+    if (currentPage > 0) {
+      currentPage--;
+      updatePage();
+    }
+  }
+</script>

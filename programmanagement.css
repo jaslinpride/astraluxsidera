@@ -138,6 +138,20 @@ nav .mainMenu li a:hover {
     animation: bounce 2s infinite;
 }
 
+.nav-button {
+    font-size: 24px;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #eee;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+  
+.nav-button:hover {
+    background-color: #ccc;
+}
+
 .sowimg {
     display: flex;
 }
@@ -153,131 +167,35 @@ nav .mainMenu li a:hover {
     margin-top: 24rem;
 }
 
-.sow {
-    line-height: 1.4;
-    color: #293241;
-    background-size: cover;
-    background-position: center;
-    background: #ffffff;
-    opacity: 80%;
-    padding: 1rem;
-    width: 80%;
-    margin: auto;
+.page-viewer {
+    display: flex;
+    align-items: center;
     justify-content: center;
-    margin-top: 3rem;
-    margin-bottom: 0.5rem;
-    border: 5px solid #3d5a80;
-}
-
-.sow-img img {
-    margin-top: 1.7rem;
-    margin-bottom: 1.7rem;
-    width: 30%;
-    margin: auto;
-    justify-content: center;
-    display: grid;
-}
-
-.sow-text {
-    text-align: left;
-    width: 100%;
-    line-height: 1;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 12px;
-    margin-bottom: 0.3rem;
-    font-weight: 500;
-}
-
-table {
-    border-collapse: collapse;
-    width: 70%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-}
-
-th, td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: left;
-}
-
-th {
-    background-color: #f0f0f0;
-}
-
-.sow-body {
-    text-align: left;
-    width: 100%;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 12px;
-    margin-bottom: 1rem;
-    font-weight: 500;
-}
-
-.sow-st-one {
-    text-align: left;
-    width: 100%;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 16px;
-    margin-bottom: 0.2rem;
-    margin-top: 1.5rem;
-}
-
-.sow-st-two {
-    text-align: left;
-    width: 100%;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 14px;
-    margin-bottom: 0.2rem;
-    margin-top: 0.5rem;
-}
-
-.sow-text-title {
-    text-align: center;
-    width: 100%;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 18px;
-    font-weight: 2000;
-}
-
-.sow-text-h1 {
-    text-align: center;
-    width: 100%;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 18px;
-    font-weight: 2000;
-}
-
-.sow-text-h2 {
-    text-align: center;
-    width: 100%;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 18px;
-    font-weight: 2000;
-}
-
-.sow-text-h3 {
-    text-align: center;
-    width: 100%;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 18px;
-    font-weight: 2000;
-}
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  #book-page {
+    width: 600px;
+    height: auto;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+  }
+  
+  .nav-button {
+    font-size: 24px;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #eee;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-button:hover {
+    background-color: #ccc;
+  }
 
 .sow-resource {
     margin-top: 1rem;
@@ -1068,134 +986,39 @@ th {
         line-height: 1.5;
         letter-spacing: 1px;
         color: #293241;
-        font-size: 16px;
+        font-size: 24px;
+        font-weight: 2000;
         margin-top: 24rem;
     }
     
-    .sow {
-        line-height: 1.4;
-        color: #293241;
-        background-size: cover;
-        background-position: center;
-        background: #ffffff;
-        opacity: 80%;
-        padding: 1rem;
-        width: 90%;
-        margin: auto;
+    .page-viewer {
+        display: flex;
+        align-items: center;
         justify-content: center;
-        margin-top: 3rem;
-        margin-bottom: 0.5rem;
-        border: 5px solid #3d5a80;
+        gap: 20px;
+        padding: 20px;
     }
-    
-    .sow-img img {
-        margin-top: 1.7rem;
-        margin-bottom: 1.7rem;
-        width: 30%;
-        margin: auto;
-        justify-content: center;
-        display: grid;
+      
+    #book-page {
+        width: 600px;
+        height: auto;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+        border-radius: 10px;
+        transition: transform 0.5s ease;
     }
-    
-    .sow-text {
-        text-align: left;
-        width: 100%;
-        line-height: 1;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 12px;
-        margin-bottom: 0.3rem;
-        font-weight: 500;
+      
+    .nav-button {
+        font-size: 24px;
+        padding: 10px 15px;
+        cursor: pointer;
+        background-color: #eee;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
     }
-    
-    table {
-        border-collapse: collapse;
-        width: 80%;
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
-    }
-    
-    th, td {
-        border: 1px solid #ddd;
-        padding: 10px;
-        text-align: left;
-    }
-    
-    th {
-        background-color: #f0f0f0;
-    }
-    
-    .sow-body {
-        text-align: left;
-        width: 100%;
-        line-height: 1.5;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 11px;
-        margin-bottom: 1rem;
-        font-weight: 500;
-    }
-    
-    .sow-st-one {
-        text-align: left;
-        width: 100%;
-        line-height: 1.5;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 16px;
-        margin-bottom: 0.2rem;
-        margin-top: 1.5rem;
-    }
-    
-    .sow-st-two {
-        text-align: left;
-        width: 100%;
-        line-height: 1.5;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 14px;
-        margin-bottom: 0.2rem;
-        margin-top: 0.5rem;
-    }
-    
-    .sow-text-title {
-        text-align: center;
-        width: 100%;
-        line-height: 1.5;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 18px;
-        font-weight: 2000;
-    }
-    
-    .sow-text-h1 {
-        text-align: center;
-        width: 100%;
-        line-height: 1.5;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 18px;
-        font-weight: 2000;
-    }
-    
-    .sow-text-h2 {
-        text-align: center;
-        width: 100%;
-        line-height: 1.5;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 18px;
-        font-weight: 2000;
-    }
-    
-    .sow-text-h3 {
-        text-align: center;
-        width: 100%;
-        line-height: 1.5;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 18px;
-        font-weight: 2000;
+      
+    .nav-button:hover {
+        background-color: #ccc;
     }
     
     .sow-resource {
@@ -1203,7 +1026,7 @@ th {
         margin-bottom: 3rem;
         line-height: 1.5;
         text-align: center;
-        font-size: 11px;
+        font-size: 16px;
         color: #293241;
         padding: 3rem;
         gap: 5%;
@@ -1214,12 +1037,12 @@ th {
     }
     
     .sow-resource img {
-        width: 5%;
+        width: 2.5%;
         text-align: center;
         line-height: 1.5;
         letter-spacing: 1px;
         color: #293241;
-        font-size: 11px;
+        font-size: 18px;
         font-weight: 2000;
         margin-top: 0.5rem;
     }
@@ -1227,7 +1050,6 @@ th {
     .sow-link {
         margin-top: 0.5rem;
         text-align: center;
-        font-size: 11px;
     }
     
     .imp-title {
@@ -1812,17 +1634,16 @@ th {
         margin-bottom: 3rem;
         line-height: 1.6;
         text-align: center;
-        font-size: 11px;
+        font-size: 10px;
         color: #ffffff;
         padding: 3rem;
         gap: 5%;
         width: 100%;
         margin: auto;
-        justify-content: center;
     }
     
     .author img {
-        width: 5%
+        width: 4%
     }
     
     .copyright {
@@ -1830,7 +1651,7 @@ th {
         margin-bottom: 8rem;
         line-height: 1.6;
         text-align: center;
-        font-size: 11px;
+        font-size: 10px;
         color: #ffffff;
         padding: 3rem;
         gap: 5%;
