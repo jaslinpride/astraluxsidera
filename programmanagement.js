@@ -3,18 +3,34 @@ const openMenu = document.querySelector('.openMenu');
 const closeMenu = document.querySelector('.closeMenu');
 
 
-
-
 openMenu.addEventListener('click', show);
 closeMenu.addEventListener('click', close);
 
-const images = document.querySelectorAll('.image-container img');
-const nextArrow = document.querySelector('next-arrow');
-let currentImage = 0;
 
-nextArrow.addEventListener('click', () => {
-    currentImage = (currentImage + 1) % images.length;
-    const translateX = -currentImage * 100;
-    document.querySelector('.image-container').style.transform =
-    `translateX(${translateX}%)`;
-})
+function show(){
+    mainMenu.style.display = "flex";
+    mainMenu.style.top = "0";
+}
+
+function close() {
+    mainMenu.style.top = '-120%';
+}
+
+
+function slideLeft() {
+    const slider = document.getElementById("slider");
+    slider.scrollBy({
+        left: -400,
+        behavior: "smooth"
+    });
+}
+
+function slideRight() {
+    const slider = document.getElementById("slider");
+    slider.scrollBy({
+        left: 400,
+        behavior: "smooth"
+    });
+}
+
+

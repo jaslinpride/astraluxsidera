@@ -17,16 +17,18 @@ function close() {
 }
 
 
-openMenu.addEventListener('click', show);
-closeMenu.addEventListener('click', close);
+function slideLeft() {
+    const slider = document.getElementById("slider");
+    slider.scrollBy({
+        left: -400,
+        behavior: "smooth"
+    });
+}
 
-const images = document.querySelectorAll('.image-container img');
-const nextArrow = document.querySelector('next-arrow');
-let currentImage = 0;
-
-nextArrow.addEventListener('click', () => {
-    currentImage = (currentImage + 1) % images.length;
-    const translateX = -currentImage * 100;
-    document.querySelector('.image-container').style.transform =
-    `translateX(${translateX}%)`;
-})
+function slideRight() {
+    const slider = document.getElementById("slider");
+    slider.scrollBy({
+        left: 400,
+        behavior: "smooth"
+    });
+}
