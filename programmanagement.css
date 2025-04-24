@@ -746,7 +746,6 @@ nav .mainMenu li a:hover {
         margin-left: 6rem;
         margin-top: 2rem;
     }
-
     .down-arrow {
         margin-top: 1rem;
         animation: bounce 2s infinite;
@@ -779,13 +778,13 @@ nav .mainMenu li a:hover {
     
     .pm-welcome-text {
         margin-top: 5rem;
-        font-size: 26px;
+        font-size: 22px;
     }
     
     .pm-header {
         line-height: 1.6;
         text-align: center;
-        font-size: 14px;
+        font-size: 12px;
         color: #293241;
         padding: 0.7rem;
         gap: 5%;
