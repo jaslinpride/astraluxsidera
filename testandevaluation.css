@@ -140,12 +140,12 @@ nav .mainMenu li a:hover {
 }
 
 .down-arrow {
-    margin-top: 14rem;
+    margin-top: 1rem;
     animation: bounce 2s infinite;
 }
 
 .up-arrow {
-    margin-top: 26rem;
+    margin-top: 1rem;
     animation: bounce 2s infinite;
 }
 
@@ -347,12 +347,12 @@ nav .mainMenu li a:hover {
     }
     
     .down-arrow {
-        margin-top: 14rem;
+        margin-top: 1rem;
         animation: bounce 2s infinite;
     }
     
     .up-arrow {
-        margin-top: 26rem;
+        margin-top: 1rem;
         animation: bounce 2s infinite;
     }
     
@@ -408,25 +408,30 @@ nav .mainMenu li a:hover {
         margin-bottom: 3rem;
         line-height: 1.6;
         text-align: center;
-        font-size: 11px;
+        font-size: 10px;
+        color: #ffffff;
+        padding: 3rem;
+        gap: 5%;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .author img {
+        width: 4%
+    }
+    
+    .copyright {
+        margin-top: 0.7rem;
+        margin-bottom: 8rem;
+        line-height: 1.6;
+        text-align: center;
+        font-size: 10px;
         color: #ffffff;
         padding: 3rem;
         gap: 5%;
         width: 100%;
         margin: auto;
         justify-content: center;
-    }
-    
-    .author img {
-        width: 2.5%
-    }
-    
-    .copyright {
-        text-align: center;
-        padding: 5rem;
-        margin-top: 0.7rem;
-        color: #ffffff;
-        font-size: 11px;
     }
 
     @keyframes bounce {

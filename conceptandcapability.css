@@ -733,18 +733,16 @@ nav .mainMenu li a:hover {
         margin-bottom: 3rem;
         line-height: 1.6;
         text-align: center;
-        font-size: 11px;
+        font-size: 10px;
         color: #ffffff;
         padding: 3rem;
         gap: 5%;
         width: 100%;
         margin: auto;
-        justify-content: center;
-        font-weight: 500;
     }
     
     .author img {
-        width: 5%
+        width: 4%
     }
     
     .copyright {
@@ -752,7 +750,7 @@ nav .mainMenu li a:hover {
         margin-bottom: 8rem;
         line-height: 1.6;
         text-align: center;
-        font-size: 11px;
+        font-size: 10px;
         color: #ffffff;
         padding: 3rem;
         gap: 5%;

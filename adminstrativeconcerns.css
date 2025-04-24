@@ -140,13 +140,27 @@ nav .mainMenu li a:hover {
 }
 
 .down-arrow {
-    margin-top: 14rem;
+    margin-top: 2rem;
     animation: bounce 2s infinite;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.down-arrow img {
+    width: 3%;
 }
 
 .up-arrow {
-    margin-top: 26rem;
+    margin-top: 2rem;
     animation: bounce 2s infinite;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.up-arrow img {
+    width: 3%;
 }
 
 .acm-title {
