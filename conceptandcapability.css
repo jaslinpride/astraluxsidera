@@ -123,13 +123,27 @@ nav .mainMenu li a:hover {
 }
 
 .down-arrow {
-    margin-top: 14rem;
+    margin-top: 2rem;
     animation: bounce 2s infinite;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.down-arrow img {
+    width: 3%;
 }
 
 .up-arrow {
-    margin-top: 26rem;
+    margin-top: 2rem;
     animation: bounce 2s infinite;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.up-arrow img {
+    width: 3%;
 }
 
 .co-title {
@@ -239,81 +253,30 @@ nav .mainMenu li a:hover {
     margin-top: 24rem;
 }
 
-.uc {
-    line-height: 1.4;
-    color: #293241;
-    background-size: cover;
-    background-position: center;
-    background: #ffffff;
-    opacity: 80%;
-    padding: 1rem;
-    width: 80%;
-    margin: auto;
-    justify-content: center;
-    margin-top: 3rem;
-    margin-bottom: 0.5rem;
-    border: 5px solid #3d5a80;
+.page-viewer{
+    position: relative;
 }
 
-.uc-img img {
-    margin-top: 1.7rem;
-    margin-bottom: 1.7rem;
-    width: 50%;
+.image-container {
+    display: flex;
 }
 
-.uc-st-one {
-    text-align: left;
-    width: 100%;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 16px;
-    margin-bottom: 0.2rem;
-    margin-top: 1.5rem;
+.image-container img {
+    width: 35%;
+    height: 35%;
+    object-fit: cover;
 }
 
-.uc-st-two {
-    text-align: left;
-    width: 100%;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 14px;
-    margin-bottom: 0.2rem;
-    margin-top: 0.5rem;
-}
-
-.uc-objective {
-    text-align: left;
-    width: 100%;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 12px;
-    margin-bottom: 1rem;
-    font-weight: 500;
-}
-
-.uc-personnel {
-    text-align: left;
-    width: 100%;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 12px;
-    margin-bottom: 1rem;
-    font-weight: 500;
-}
-
-.uc-body {
-    text-align: left;
-    width: 100%;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 12px;
-    margin-bottom: 1rem;
-    font-weight: 500;
+.next-arrow {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 1s ease;
 }
 
 .uc-resource {
@@ -440,21 +403,21 @@ nav .mainMenu li a:hover {
     }
 
     .down-arrow {
-        margin-top: 14rem;
+        margin-top: 1rem;
         animation: bounce 2s infinite;
     }
 
     .down-arrow img {
-        width: 65%;
+        width: 5%;
     }
     
     .up-arrow {
-        margin-top: 12rem;
+        margin-top: 1rem;
         animation: bounce 2s infinite;
     }
 
     .up-arrow img {
-        width: 55%;
+        width: 5%;
     }
 
     .cc-welcome {
@@ -618,82 +581,31 @@ nav .mainMenu li a:hover {
         font-weight: 2000;
         margin-top: 24rem;
     }
+
+    .page-viewer{
+        position: relative;
+    }
     
-    .uc {
-        line-height: 1.4;
-        color: #293241;
-        background-size: cover;
-        background-position: center;
-        background: #ffffff;
-        opacity: 80%;
-        padding: 1rem;
+    .image-container {
+        display: flex;
+    }
+    
+    .image-container img {
         width: 80%;
-        margin: auto;
-        justify-content: center;
-        margin-top: 3rem;
-        margin-bottom: 0.5rem;
-        border: 5px solid #3d5a80;
+        height: 80%;
+        object-fit: cover;
     }
     
-    .uc-img img {
-        margin-top: 1.7rem;
-        margin-bottom: 1.7rem;
-        width: 50%;
-    }
-    
-    .uc-st-one {
-        text-align: left;
-        width: 100%;
-        line-height: 1.5;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 16px;
-        margin-bottom: 0.2rem;
-        margin-top: 1.5rem;
-    }
-    
-    .uc-st-two {
-        text-align: left;
-        width: 100%;
-        line-height: 1.5;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 14px;
-        margin-bottom: 0.2rem;
-        margin-top: 0.5rem;
-    }
-    
-    .uc-objective {
-        text-align: left;
-        width: 100%;
-        line-height: 1.5;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 12px;
-        margin-bottom: 1rem;
-        font-weight: 500;
-    }
-    
-    .uc-personnel {
-        text-align: left;
-        width: 100%;
-        line-height: 1.5;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 12px;
-        margin-bottom: 1rem;
-        font-weight: 500;
-    }
-    
-    .uc-body {
-        text-align: left;
-        width: 100%;
-        line-height: 1.5;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 11px;
-        margin-bottom: 1rem;
-        font-weight: 500;
+    .next-arrow {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        background-color: transparent;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        transition: 1s ease;
     }
     
     .uc-resource {
