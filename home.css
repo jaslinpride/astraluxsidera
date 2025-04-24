@@ -122,19 +122,19 @@ nav .mainMenu li a:hover {
 }
 
 .down-arrow img {
-    width: 7%;
+    width: 3%;
 }
 
 .up-arrow {
-    margin-top: 1rem;
+    margin-top: 2rem;
     animation: bounce 2s infinite;
-    position: fixed;
-    display: flex;
+    text-align: center;
+    margin: auto;
     justify-content: center;
 }
 
 .up-arrow img {
-    width: 7%;
+    width: 3%;
 }
 
 .toc {
@@ -145,7 +145,7 @@ nav .mainMenu li a:hover {
     background: #ffffff;
     opacity: 80%;
     padding: 3rem;
-    width: 45%;
+    width: 80%;
     margin: auto;
     justify-content: center;
     margin-top: 3rem;
