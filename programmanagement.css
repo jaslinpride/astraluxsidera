@@ -713,6 +713,9 @@ nav .mainMenu li a:hover {
         transition: top 1.5s ease;
         display: none;
         opacity: 80%;
+        margin-left: 2rem;
+        justify-content: center;
+        text-align: center;
     }
 
     .new-nav {
