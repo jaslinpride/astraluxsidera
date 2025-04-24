@@ -349,11 +349,8 @@ nav .mainMenu li a:hover {
     }
 
     .down-arrow {
-        margin-top: 2rem;
+        margin-top: 1rem;
         animation: bounce 2s infinite;
-        text-align: center;
-        margin: auto;
-        justify-content: center;
     }
 
     .down-arrow img {
@@ -363,9 +360,6 @@ nav .mainMenu li a:hover {
     .up-arrow {
         margin-top: 1rem;
         animation: bounce 2s infinite;
-        position: fixed;
-        display: flex;
-        justify-content: center;
     }
 
     .up-arrow img {
