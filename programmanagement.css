@@ -173,6 +173,7 @@ nav .mainMenu li a:hover {
     font-size: 24px;
     font-weight: 2000;
     margin-top: 24rem;
+    margin-bottom: 3rem;
 }
 
 .page-viewer{
@@ -329,6 +330,7 @@ nav .mainMenu li a:hover {
     font-size: 24px;
     font-weight: 2000;
     margin-top: 24rem;
+    margin-bottom: 3rem;
 }
 
 .wbs-resource {
@@ -371,6 +373,7 @@ nav .mainMenu li a:hover {
     font-size: 24px;
     font-weight: 2000;
     margin-top: 24rem;
+    margin-bottom: 3rem;
 }
 
 .imsimg {
@@ -445,6 +448,7 @@ nav .mainMenu li a:hover {
     font-size: 24px;
     font-weight: 2000;
     margin-top: 24rem;
+    margin-bottom: 3rem;
 }
 
 .sempimg {
@@ -519,6 +523,7 @@ nav .mainMenu li a:hover {
     font-size: 24px;
     font-weight: 2000;
     margin-top: 24rem;
+    margin-bottom: 3rem;
 }
 
 .roimg {
@@ -593,6 +598,7 @@ nav .mainMenu li a:hover {
     font-size: 24px;
     font-weight: 2000;
     margin-top: 24rem;
+    margin-bottom: 3rem;
 }
 
 .evmimg {
@@ -741,31 +747,22 @@ nav .mainMenu li a:hover {
         margin-top: 2rem;
     }
 
-    .welcome-text{
-        font-size: 34px;
-    }
-
-    .header {
-        font-size: 14px;
-        width: 100%;
-    }
-
     .down-arrow {
-        margin-top: 14rem;
+        margin-top: 1rem;
         animation: bounce 2s infinite;
     }
 
     .down-arrow img {
-        width: 65%;
+        width: 5%;
     }
     
     .up-arrow {
-        margin-top: 12rem;
+        margin-top: 1rem;
         animation: bounce 2s infinite;
     }
 
     .up-arrow img {
-        width: 55%;
+        width: 5%;
     }
     
     .pm-welcome {
@@ -836,6 +833,7 @@ nav .mainMenu li a:hover {
         font-size: 16px;
         font-weight: 2000;
         margin-top: 24rem;
+        margin-bottom: 3rem;
     }
     
     .page-viewer{
@@ -873,7 +871,7 @@ nav .mainMenu li a:hover {
         margin-bottom: 3rem;
         line-height: 1.5;
         text-align: center;
-        font-size: 16px;
+        font-size: 11px;
         color: #293241;
         padding: 3rem;
         gap: 5%;
@@ -889,7 +887,7 @@ nav .mainMenu li a:hover {
         line-height: 1.5;
         letter-spacing: 1px;
         color: #293241;
-        font-size: 18px;
+        font-size: 11px;
         font-weight: 2000;
         margin-top: 0.5rem;
     }
@@ -897,6 +895,7 @@ nav .mainMenu li a:hover {
     .sow-link {
         margin-top: 0.5rem;
         text-align: center;
+        font-size: 11px;
     }
     
     .imp-title {
@@ -982,6 +981,7 @@ nav .mainMenu li a:hover {
         font-size: 16px;
         font-weight: 2000;
         margin-top: 24rem;
+        margin-bottom: 3rem;
     }
     
     .wbs-resource {
@@ -1013,7 +1013,7 @@ nav .mainMenu li a:hover {
     .wbs-link {
         margin-top: 0.5rem;
         text-align: center;
-        font-size: 12px;
+        font-size: 11px;
     }
     
     .ims-title {
