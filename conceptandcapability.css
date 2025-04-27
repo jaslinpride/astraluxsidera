@@ -330,6 +330,49 @@ nav .mainMenu li a:hover {
     text-align: center;
 }
 
+.act-title {
+    text-align: center;
+    width: 100%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 24px;
+    font-weight: 2000;
+    margin-top: 24rem;
+    margin-bottom: 3rem;
+}
+
+.act-resource {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    line-height: 1.6;
+    text-align: center;
+    font-size: 16px;
+    color: #293241;
+    padding: 3rem;
+    gap: 5%;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.act-resource img {
+    width: 3%;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 18px;
+    font-weight: 2000;
+    margin-top: 0.5rem;
+}
+
+.act-link {
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
 .author {
     margin-top: 6rem;
     margin-bottom: 3rem;
@@ -675,6 +718,38 @@ nav .mainMenu li a:hover {
     }
     
     .uc-link {
+        margin-top: 0.5rem;
+        text-align: center;
+        font-size: 11px;
+    }
+
+    .act-resource {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        line-height: 1.6;
+        text-align: center;
+        font-size: 11px;
+        color: #293241;
+        padding: 3rem;
+        gap: 5%;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        font-weight: 500;
+    }
+    
+    .act-resource img {
+        width: 5%;
+        text-align: center;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        color: #293241;
+        font-size: 11px;
+        font-weight: 2000;
+        margin-top: 0.5rem;
+    }
+    
+    .act-link {
         margin-top: 0.5rem;
         text-align: center;
         font-size: 11px;
