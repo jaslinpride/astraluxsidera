@@ -330,6 +330,10 @@ nav .mainMenu li a:hover {
     text-align: center;
 }
 
+.uc-link img {
+    width: 5%;
+}
+
 .act-title {
     text-align: center;
     width: 100%;
@@ -371,6 +375,10 @@ nav .mainMenu li a:hover {
 .act-link {
     margin-top: 0.5rem;
     text-align: center;
+}
+
+.act-link img {
+    width: 5%;
 }
 
 .author {
@@ -723,6 +731,10 @@ nav .mainMenu li a:hover {
         font-size: 11px;
     }
 
+    .uc-link img {
+        width: 5%;
+    }
+
     .act-resource {
         margin-top: 1rem;
         margin-bottom: 3rem;
@@ -753,6 +765,10 @@ nav .mainMenu li a:hover {
         margin-top: 0.5rem;
         text-align: center;
         font-size: 11px;
+    }
+
+    .act-link img {
+        width: 5%;
     }
     
     .author {

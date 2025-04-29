@@ -252,6 +252,10 @@ nav .mainMenu li a:hover {
     text-align: center;
 }
 
+.sow-link img {
+    width: 5%;
+}
+
 .imp-title {
     text-align: center;
     width: 100%;
@@ -367,6 +371,10 @@ nav .mainMenu li a:hover {
 .wbs-link {
     margin-top: 0.5rem;
     text-align: center;
+}
+
+.wbs-link img {
+    width: 5%;
 }
 
 .ims-title {
@@ -910,6 +918,10 @@ nav .mainMenu li a:hover {
         text-align: center;
         font-size: 11px;
     }
+
+    .sow-link img {
+        width: 5%;
+    }
     
     .imp-title {
         text-align: center;
@@ -1027,6 +1039,10 @@ nav .mainMenu li a:hover {
         margin-top: 0.5rem;
         text-align: center;
         font-size: 11px;
+    }
+
+    .wbs-link {
+        width: 5%;
     }
     
     .ims-title {

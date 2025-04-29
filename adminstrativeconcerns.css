@@ -191,6 +191,10 @@ nav .mainMenu li a:hover {
     text-align: center;
 }
 
+.acm-link img {
+    width: 5%;
+}
+
 .acm-resource {
     margin-top: 1rem;
     margin-bottom: 3rem;
@@ -259,6 +263,10 @@ nav .mainMenu li a:hover {
     text-align: center;
 }
 
+.da-link img {
+    width: 5%;
+}
+
 .crr-title {
     text-align: center;
     width: 100%;
@@ -301,6 +309,10 @@ nav .mainMenu li a:hover {
     margin-top: 0.5rem;
     text-align: center;
     font-size: 16px;
+}
+
+.crr-link {
+    width: 5%;
 }
 
 .bft-title {
@@ -402,6 +414,10 @@ nav .mainMenu li a:hover {
 .mcp-link {
     margin-top: 0.5rem;
     text-align: center;
+}
+
+.mcp-link img{  
+    width: 5%;
 }
 
 .author {
@@ -624,6 +640,10 @@ nav .mainMenu li a:hover {
         text-align: center;
         font-size: 11px;
     }
+
+    .acm-link img {
+        width: 5%;
+    }
     
     .acm-resource {
         margin-top: 1rem;
@@ -694,6 +714,10 @@ nav .mainMenu li a:hover {
         font-size: 12px;
     }
     
+    .da-link img {
+        width: 5%;
+    }
+
     .crr-title {
         text-align: center;
         width: 100%;
@@ -735,6 +759,10 @@ nav .mainMenu li a:hover {
         margin-top: 0.5rem;
         text-align: center;
         font-size: 11px;
+    }
+
+    .crr-link img {
+        width: 5%;
     }
     
     .bft-title {
@@ -794,7 +822,7 @@ nav .mainMenu li a:hover {
         margin-top: 20rem;
         margin-bottom: 3rem;
     }
-    
+
     .mcp-resource {
         margin-top: 1rem;
         margin-bottom: 3rem;
@@ -825,6 +853,10 @@ nav .mainMenu li a:hover {
         margin-top: 0.5rem;
         text-align: center;
         font-size: 11px;
+    }
+
+    .mcp-link img{  
+        width: 5%;
     }
     
     .author {
