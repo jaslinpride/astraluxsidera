@@ -735,6 +735,18 @@ nav .mainMenu li a:hover {
         width: 5%;
     }
 
+    .act-title {
+        text-align: center;
+        width: 100%;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        color: #293241;
+        font-size: 16px;
+        font-weight: 2000;
+        margin-top: 24rem;
+        margin-bottom: 3rem;
+    }
+
     .act-resource {
         margin-top: 1rem;
         margin-bottom: 3rem;
@@ -770,7 +782,7 @@ nav .mainMenu li a:hover {
     .act-link img {
         width: 5%;
     }
-    
+  
     .author {
         margin-top: 6rem;
         margin-bottom: 3rem;
