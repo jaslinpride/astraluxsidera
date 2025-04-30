@@ -17,3 +17,20 @@ function show(){
 function close() {
     mainMenu.style.top = '-120%';
 }
+
+const sections = document.querySelectorAll('.hidden');
+window.addEventListener('scroll', checkSections);
+
+function checkSections() {
+    const triggerBottom = window.innerHeight * 0.8;
+
+    sections.forEach(section => {
+        const sectionTop = section.getBoundingClientRect().top;
+
+        if (sectionTop < triggerBottom) {
+            section.classList.add('show');
+        } else {
+            section.classList.remove('show');
+        }
+    });
+}
