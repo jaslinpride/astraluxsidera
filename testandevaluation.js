@@ -33,7 +33,7 @@ function slideRight() {
     });
 }
 
-const sections = document.querySelectorAll('.project');
+const sections = document.querySelectorAll('.projectt');
 window.addEventListener('scroll', checkSections);
 
 function checkSections() {
