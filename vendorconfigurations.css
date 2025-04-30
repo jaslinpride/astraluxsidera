@@ -99,40 +99,6 @@ nav .mainMenu li a:hover {
     margin-right: 2.5rem;
 }
 
-.vc-welcome {
-    line-height: 1.6;
-    text-align: center;
-    font-size: 60px;
-    color: #ffffff;
-    padding: 0.5rem;
-    gap: 5%;
-    width: 80%;
-    margin: auto;
-    justify-content: center;
-    margin-top: 0.3rem;
-}
-
-.vc-welcome-text {
-    margin-top: 3rem;
-}
-
-.vc-header {
-    line-height: 1.6;
-    text-align: center;
-    font-size: 24px;
-    color: #293241;
-    padding: 0.7rem;
-    gap: 5%;
-    width: 70%;
-    margin: auto;
-    justify-content: center;
-    margin-top: 3rem;
-}
-
-.vc-header p {
-    margin-top: 0.5rem;
-}
-
 .vc-welcome-img img {
     margin-top: 1.7rem;
     margin-bottom: 1.7rem;
@@ -163,7 +129,7 @@ nav .mainMenu li a:hover {
     width: 3%;
 }
 
-.sp-title {
+.ss-title {
     text-align: center;
     width: 100%;
     line-height: 1.5;
@@ -174,11 +140,11 @@ nav .mainMenu li a:hover {
     margin-top: 24rem;
 }
 
-.spimg {
+.ssimg {
     display: flex;
 }
 
-.sp {
+.ss {
     line-height: 1.4;
     color: #293241;
     background-size: cover;
@@ -194,13 +160,13 @@ nav .mainMenu li a:hover {
     border: 5px solid #3d5a80;
 }
 
-.sp-img img {
+.ss-img img {
     margin-top: 1.7rem;
     margin-bottom: 1.7rem;
     width: 50%;
 }
 
-.sp-text {
+.ss-text {
     text-align: left;
     width: 60%;
     line-height: 1;
@@ -211,7 +177,7 @@ nav .mainMenu li a:hover {
     font-weight: 500;
 }
 
-.rw-title {
+.sdd-title {
     text-align: center;
     width: 100%;
     line-height: 1.5;
@@ -222,11 +188,11 @@ nav .mainMenu li a:hover {
     margin-top: 20rem;
 }
 
-.rwimg {
+.sddimg {
     display: flex;
 }
 
-.rw {
+.sdd {
     line-height: 1.4;
     color: #293241;
     background-size: cover;
@@ -242,13 +208,13 @@ nav .mainMenu li a:hover {
     border: 5px solid #3d5a80;
 }
 
-.rw-img img {
+.sdd-img img {
     margin-top: 1.7rem;
     margin-bottom: 1.7rem;
     width: 50%;
 }
 
-.rw-text {
+.sdd-text {
     text-align: left;
     width: 60%;
     line-height: 1;
@@ -259,7 +225,7 @@ nav .mainMenu li a:hover {
     font-weight: 500;
 }
 
-.msi-title {
+.icd-title {
     text-align: center;
     width: 100%;
     line-height: 1.5;
@@ -270,11 +236,11 @@ nav .mainMenu li a:hover {
     margin-top: 20rem;
 }
 
-.msiimg {
+.icdimg {
     display: flex;
 }
 
-.msi {
+.icd {
     line-height: 1.4;
     color: #293241;
     background-size: cover;
@@ -290,205 +256,13 @@ nav .mainMenu li a:hover {
     border: 5px solid #3d5a80;
 }
 
-.msi-img img {
+.icd-img img {
     margin-top: 1.7rem;
     margin-bottom: 1.7rem;
     width: 50%;
 }
 
-.msi-text {
-    text-align: left;
-    width: 60%;
-    line-height: 1;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 12px;
-    margin-bottom: 0.3rem;
-    font-weight: 500;
-}
-
-.ut-title {
-    text-align: center;
-    width: 100%;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 24px;
-    font-weight: 2000;
-    margin-top: 20rem;
-}
-
-.utimg {
-    display: flex;
-}
-
-.ut {
-    line-height: 1.4;
-    color: #293241;
-    background-size: cover;
-    background-position: center;
-    background: #ffffff;
-    opacity: 80%;
-    padding: 3rem;
-    width: 80%;
-    margin: auto;
-    justify-content: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    border: 5px solid #3d5a80;
-}
-
-.ut-img img {
-    margin-top: 1.7rem;
-    margin-bottom: 1.7rem;
-    width: 50%;
-}
-
-.ut-text {
-    text-align: left;
-    width: 60%;
-    line-height: 1;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 12px;
-    margin-bottom: 0.3rem;
-    font-weight: 500;
-}
-
-.xbda-title {
-    text-align: center;
-    width: 100%;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 24px;
-    font-weight: 2000;
-    margin-top: 20rem;
-}
-
-.xbdaimg {
-    display: flex;
-}
-
-.xbda {
-    line-height: 1.4;
-    color: #293241;
-    background-size: cover;
-    background-position: center;
-    background: #ffffff;
-    opacity: 80%;
-    padding: 3rem;
-    width: 80%;
-    margin: auto;
-    justify-content: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    border: 5px solid #3d5a80;
-}
-
-.xbda-img img {
-    margin-top: 1.7rem;
-    margin-bottom: 1.7rem;
-    width: 50%;
-}
-
-.xbda-text {
-    text-align: left;
-    width: 60%;
-    line-height: 1;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 12px;
-    margin-bottom: 0.3rem;
-    font-weight: 500;
-}
-
-.r-title {
-    text-align: center;
-    width: 100%;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 24px;
-    font-weight: 2000;
-    margin-top: 20rem;
-}
-
-.rimg {
-    display: flex;
-}
-
-.r {
-    line-height: 1.4;
-    color: #293241;
-    background-size: cover;
-    background-position: center;
-    background: #ffffff;
-    opacity: 80%;
-    padding: 3rem;
-    width: 80%;
-    margin: auto;
-    justify-content: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    border: 5px solid #3d5a80;
-}
-
-.r-img img {
-    margin-top: 1.7rem;
-    margin-bottom: 1.7rem;
-    width: 50%;
-}
-
-.r-text {
-    text-align: left;
-    width: 60%;
-    line-height: 1;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 12px;
-    margin-bottom: 0.3rem;
-    font-weight: 500;
-}
-
-.h-title {
-    text-align: center;
-    width: 100%;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    color: #293241;
-    font-size: 24px;
-    font-weight: 2000;
-    margin-top: 20rem;
-}
-
-.himg {
-    display: flex;
-}
-
-.h {
-    line-height: 1.4;
-    color: #293241;
-    background-size: cover;
-    background-position: center;
-    background: #ffffff;
-    opacity: 80%;
-    padding: 3rem;
-    width: 80%;
-    margin: auto;
-    justify-content: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    border: 5px solid #3d5a80;
-}
-
-.h-img img {
-    margin-top: 1.7rem;
-    margin-bottom: 1.7rem;
-    width: 50%;
-}
-
-.h-text {
+.icd-text {
     text-align: left;
     width: 60%;
     line-height: 1;
@@ -646,7 +420,7 @@ nav .mainMenu li a:hover {
         width: 50%;
     }
     
-    .sp-title {
+    .ss-title {
         text-align: center;
         width: 100%;
         line-height: 1.5;
@@ -656,11 +430,11 @@ nav .mainMenu li a:hover {
         margin-top: 24rem;
     }
     
-    .spimg {
+    .ssimg {
         display: flex;
     }
     
-    .sp {
+    .ss {
         line-height: 1.4;
         color: #293241;
         background-size: cover;
@@ -676,13 +450,13 @@ nav .mainMenu li a:hover {
         border: 5px solid #3d5a80;
     }
     
-    .sp-img img {
+    .ss-img img {
         margin-top: 1.7rem;
         margin-bottom: 1.7rem;
         width: 50%;
     }
     
-    .sp-text {
+    .ss-text {
         text-align: left;
         width: 60%;
         line-height: 1;
@@ -693,7 +467,7 @@ nav .mainMenu li a:hover {
         font-weight: 500;
     }
     
-    .rw-title {
+    .sdd-title {
         text-align: center;
         width: 100%;
         line-height: 1.5;
@@ -703,11 +477,11 @@ nav .mainMenu li a:hover {
         margin-top: 20rem;
     }
     
-    .rwimg {
+    .sddimg {
         display: flex;
     }
     
-    .rw {
+    .sdd {
         line-height: 1.4;
         color: #293241;
         background-size: cover;
@@ -723,13 +497,13 @@ nav .mainMenu li a:hover {
         border: 5px solid #3d5a80;
     }
     
-    .rw-img img {
+    .sdd-img img {
         margin-top: 1.7rem;
         margin-bottom: 1.7rem;
         width: 50%;
     }
     
-    .rw-text {
+    .sdd-text {
         text-align: left;
         width: 60%;
         line-height: 1;
@@ -740,7 +514,7 @@ nav .mainMenu li a:hover {
         font-weight: 500;
     }
     
-    .msi-title {
+    .icd-title {
         text-align: center;
         width: 100%;
         line-height: 1.5;
@@ -750,11 +524,11 @@ nav .mainMenu li a:hover {
         margin-top: 20rem;
     }
     
-    .msiimg {
+    .icdimg {
         display: flex;
     }
     
-    .msi {
+    .icd {
         line-height: 1.4;
         color: #293241;
         background-size: cover;
@@ -770,201 +544,13 @@ nav .mainMenu li a:hover {
         border: 5px solid #3d5a80;
     }
     
-    .msi-img img {
+    .icd-img img {
         margin-top: 1.7rem;
         margin-bottom: 1.7rem;
         width: 50%;
     }
     
-    .msi-text {
-        text-align: left;
-        width: 60%;
-        line-height: 1;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 12px;
-        margin-bottom: 0.3rem;
-        font-weight: 500;
-    }
-    
-    .ut-title {
-        text-align: center;
-        width: 100%;
-        line-height: 1.5;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 16px;
-        margin-top: 20rem;
-    }
-    
-    .utimg {
-        display: flex;
-    }
-    
-    .ut {
-        line-height: 1.4;
-        color: #293241;
-        background-size: cover;
-        background-position: center;
-        background: #ffffff;
-        opacity: 80%;
-        padding: 3rem;
-        width: 80%;
-        margin: auto;
-        justify-content: center;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        border: 5px solid #3d5a80;
-    }
-    
-    .ut-img img {
-        margin-top: 1.7rem;
-        margin-bottom: 1.7rem;
-        width: 50%;
-    }
-    
-    .ut-text {
-        text-align: left;
-        width: 60%;
-        line-height: 1;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 12px;
-        margin-bottom: 0.3rem;
-        font-weight: 500;
-    }
-    
-    .xbda-title {
-        text-align: center;
-        width: 100%;
-        line-height: 1.5;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 16px;
-        margin-top: 20rem;
-    }
-    
-    .xbdaimg {
-        display: flex;
-    }
-    
-    .xbda {
-        line-height: 1.4;
-        color: #293241;
-        background-size: cover;
-        background-position: center;
-        background: #ffffff;
-        opacity: 80%;
-        padding: 3rem;
-        width: 80%;
-        margin: auto;
-        justify-content: center;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        border: 5px solid #3d5a80;
-    }
-    
-    .xbda-img img {
-        margin-top: 1.7rem;
-        margin-bottom: 1.7rem;
-        width: 50%;
-    }
-    
-    .xbda-text {
-        text-align: left;
-        width: 60%;
-        line-height: 1;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 12px;
-        margin-bottom: 0.3rem;
-        font-weight: 500;
-    }
-    
-    .r-title {
-        text-align: center;
-        width: 100%;
-        line-height: 1.5;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 16px;
-        margin-top: 20rem;
-    }
-    
-    .rimg {
-        display: flex;
-    }
-    
-    .r {
-        line-height: 1.4;
-        color: #293241;
-        background-size: cover;
-        background-position: center;
-        background: #ffffff;
-        opacity: 80%;
-        padding: 3rem;
-        width: 80%;
-        margin: auto;
-        justify-content: center;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        border: 5px solid #3d5a80;
-    }
-    
-    .r-img img {
-        margin-top: 1.7rem;
-        margin-bottom: 1.7rem;
-        width: 50%;
-    }
-    
-    .r-text {
-        text-align: left;
-        width: 60%;
-        line-height: 1;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 12px;
-        margin-bottom: 0.3rem;
-        font-weight: 500;
-    }
-    
-    .h-title {
-        text-align: center;
-        width: 100%;
-        line-height: 1.5;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 16px;
-        margin-top: 20rem;
-    }
-    
-    .himg {
-        display: flex;
-    }
-    
-    .h {
-        line-height: 1.4;
-        color: #293241;
-        background-size: cover;
-        background-position: center;
-        background: #ffffff;
-        opacity: 80%;
-        padding: 3rem;
-        width: 80%;
-        margin: auto;
-        justify-content: center;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        border: 5px solid #3d5a80;
-    }
-    
-    .h-img img {
-        margin-top: 1.7rem;
-        margin-bottom: 1.7rem;
-        width: 50%;
-    }
-    
-    .h-text {
+    .icd-text {
         text-align: left;
         width: 60%;
         line-height: 1;
