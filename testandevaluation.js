@@ -17,16 +17,35 @@ function close() {
 }
 
 
-openMenu.addEventListener('click', show);
-closeMenu.addEventListener('click', close);
+function slideLeft() {
+    const slider = document.getElementById("slider");
+    slider.scrollBy({
+        left: -400,
+        behavior: "smooth"
+    });
+}
 
-const images = document.querySelectorAll('.image-container img');
-const nextArrow = document.querySelector('next-arrow');
-let currentImage = 0;
+function slideRight() {
+    const slider = document.getElementById("slider");
+    slider.scrollBy({
+        left: 400,
+        behavior: "smooth"
+    });
+}
 
-nextArrow.addEventListener('click', () => {
-    currentImage = (currentImage + 1) % images.length;
-    const translateX = -currentImage * 100;
-    document.querySelector('.image-container').style.transform =
-    `translateX(${translateX}%)`;
-})
+const sections = document.querySelectorAll('.project');
+window.addEventListener('scroll', checkSections);
+
+function checkSections() {
+    const triggerBottom = window.innerHeight * 0.8;
+
+    sections.forEach(section => {
+        const sectionTop = section.getBoundingClientRect().top;
+
+        if (sectionTop < triggerBottom) {
+            section.classList.add('show');
+        } else {
+            section.classList.remove('show');
+        }
+    });
+}
