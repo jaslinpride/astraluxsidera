@@ -146,6 +146,17 @@ nav .mainMenu li a:hover {
     width: 3%;
 }
 
+.hidden {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: all 0.6s ease-out;
+}
+
+.show {
+    opacity: 1;
+    transform: scale(1);
+}
+
 .co-title {
     text-align: center;
     width: 100%;
@@ -536,6 +547,17 @@ nav .mainMenu li a:hover {
 
     .up-arrow img {
         width: 5%;
+    }
+
+    .hidden {
+        opacity: 0;
+        transform: scale(0.9);
+        transition: all 0.6s ease-out;
+    }
+    
+    .show {
+        opacity: 1;
+        transform: scale(1);
     }
 
     .cc-welcome {
