@@ -168,41 +168,39 @@ nav .mainMenu li a:hover {
     margin-top: 24rem;
 }
 
-.coimg {
-    display: flex;
-}
-
-.co {
-    line-height: 1.4;
+.co-resource {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    line-height: 1.6;
+    text-align: center;
+    font-size: 16px;
     color: #293241;
-    background-size: cover;
-    background-position: center;
-    background: #ffffff;
-    opacity: 80%;
     padding: 3rem;
-    width: 80%;
+    gap: 5%;
+    width: 100%;
     margin: auto;
     justify-content: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    border: 5px solid #3d5a80;
+    font-weight: 500;
 }
 
-.co-img img {
-    margin-top: 1.7rem;
-    margin-bottom: 1.7rem;
-    width: 50%;
-}
-
-.co-text {
-    text-align: left;
-    width: 60%;
-    line-height: 1;
+.co-resource img {
+    width: 3%;
+    text-align: center;
+    line-height: 1.5;
     letter-spacing: 1px;
     color: #293241;
-    font-size: 12px;
-    margin-bottom: 0.3rem;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 2000;
+    margin-top: 0.5rem;
+}
+
+.co-link {
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.co-link img {
+    width: 5%;
 }
 
 .uc-title {
@@ -391,6 +389,53 @@ nav .mainMenu li a:hover {
     width: 5%;
 }
 
+.sss-title {
+    text-align: center;
+    width: 100%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 24px;
+    font-weight: 2000;
+    margin-top: 24rem;
+    margin-bottom: 3rem;
+}
+
+.sss-resource {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    line-height: 1.6;
+    text-align: center;
+    font-size: 16px;
+    color: #293241;
+    padding: 3rem;
+    gap: 5%;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.sss-resource img {
+    width: 3%;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #293241;
+    font-size: 18px;
+    font-weight: 2000;
+    margin-top: 0.5rem;
+}
+
+.sss-link {
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.sss-link img {
+    width: 5%;
+}
+
 .author {
     margin-top: 6rem;
     margin-bottom: 3rem;
@@ -576,56 +621,45 @@ nav .mainMenu li a:hover {
         font-size: 16px;
         font-weight: 2000;
         margin-top: 24rem;
+        margin-bottom: 3rem;
     }
-    
-    .coimg {
-        display: flex;
-    }
-    
-    .co {
-        line-height: 1.4;
+
+    .co-resource {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        line-height: 1.6;
+        text-align: center;
+        font-size: 11px;
         color: #293241;
-        background-size: cover;
-        background-position: center;
-        background: #ffffff;
-        opacity: 80%;
         padding: 3rem;
-        width: 80%;
+        gap: 5%;
+        width: 100%;
         margin: auto;
         justify-content: center;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        border: 5px solid #3d5a80;
-    }
-    
-    .co-img img {
-        margin-top: 1.7rem;
-        margin-bottom: 1.7rem;
-        width: 50%;
-    }
-    
-    .co-text {
-        text-align: left;
-        width: 60%;
-        line-height: 1;
-        letter-spacing: 1px;
-        color: #293241;
-        font-size: 12px;
-        margin-bottom: 0.3rem;
         font-weight: 500;
     }
     
-    .icd-title {
+    .co-resource img {
+        width: 5%;
         text-align: center;
-        width: 100%;
         line-height: 1.5;
         letter-spacing: 1px;
         color: #293241;
-        font-size: 16px;
+        font-size: 11px;
         font-weight: 2000;
-        margin-top: 20rem;
+        margin-top: 0.5rem;
     }
     
+    .co-link {
+        margin-top: 0.5rem;
+        text-align: center;
+        font-size: 11px;
+    }
+
+    .co-link img {
+        width: 5%;
+    }
+ 
     .uc-title {
         text-align: center;
         width: 100%;
@@ -812,6 +846,54 @@ nav .mainMenu li a:hover {
     }
 
     .stma-link img {
+        width: 5%;
+    }
+
+    .sss-title {
+        text-align: center;
+        width: 100%;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        color: #293241;
+        font-size: 16px;
+        font-weight: 2000;
+        margin-top: 24rem;
+        margin-bottom: 3rem;
+    }
+
+    .sss-resource {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        line-height: 1.6;
+        text-align: center;
+        font-size: 11px;
+        color: #293241;
+        padding: 3rem;
+        gap: 5%;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        font-weight: 500;
+    }
+    
+    .sss-resource img {
+        width: 5%;
+        text-align: center;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        color: #293241;
+        font-size: 11px;
+        font-weight: 2000;
+        margin-top: 0.5rem;
+    }
+    
+    .sss-link {
+        margin-top: 0.5rem;
+        text-align: center;
+        font-size: 11px;
+    }
+
+    .sss-link img {
         width: 5%;
     }
 
