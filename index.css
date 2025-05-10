@@ -226,7 +226,7 @@
     }
   
     .welcome {
-      font-size: 26px;
+      font-size: 20px;
     }
   
     .welcome-text {
@@ -256,14 +256,25 @@
         scrollbar-color: #3d5a80 #ffffff;
       }
   
-    .tableofcontents-title,
+    .tableofcontents-title {
+        font-size: 16px;
+        margin-top: 20rem;
+        margin-bottom: 1rem;
+    }
+
     .tableofcontents-intro-title,
     .tableofcontents-intro-text,
     .tableofcontents-kt-title,
     .tableofcontents-kt-text,
-    .tableofcontents-bt-title,
+    .tableofcontents-bt-title {
+        font-size: 12px;
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+    }
+
     .tableofcontents-bt-text {
-      font-size: 12px;
+        font-size: 12px;
+        margin-bottom: 0.5rem;
     }
 
     .author,
