@@ -241,6 +241,22 @@
       margin: 1.5rem auto;
       text-align: center;
     }
+
+    .toc {
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(4px);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+        padding: 1.5rem;
+        width: 85%;
+        margin: 3rem auto;
+        border-radius: 1rem;
+        color: #293241;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        max-height: 80vh;
+        overflow-y: auto;
+        scrollbar-width: thin;
+        scrollbar-color: #3d5a80 #ffffff;
+      }
   
     .tableofcontents-title,
     .tableofcontents-intro-title,
