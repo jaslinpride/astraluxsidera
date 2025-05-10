@@ -1,36 +1,57 @@
-const mainMenu = document.querySelector('.mainMenu');
-const openMenu = document.querySelector('.openMenu');
-const closeMenu = document.querySelector('.closeMenu');
+const menuToggle = document.getElementById("menu-toggle");
+const mainMenu = document.getElementById("mainMenu");
+const hamburgerIcon = document.getElementById("hamburger-icon");
+const closeIcon = document.getElementById("close-icon");
 
+mainMenu.classList.add("menu-transition");
 
+let isOpen = false;
 
+function openMenu() {
+  mainMenu.classList.add("menu-visible");
+  mainMenu.style.display = "flex";
+  hamburgerIcon.style.display = "none";
+  closeIcon.style.display = "block";
+  isOpen = true;
+}
 
-openMenu.addEventListener('click', show);
-closeMenu.addEventListener('click', close);
+function closeMenu() {
+  mainMenu.classList.remove("menu-visible");
+  setTimeout(() => {
+    mainMenu.style.display = "none";
+  }, 300);
+  hamburgerIcon.style.display = "block";
+  closeIcon.style.display = "none";
+  isOpen = false;
+}
 
+menuToggle.addEventListener("click", () => {
+  isOpen ? closeMenu() : openMenu();
+});
 
-function show(){
+document.addEventListener("click", (e) => {
+  if (
+    isOpen &&
+    !mainMenu.contains(e.target) &&
+    !menuToggle.contains(e.target)
+  ) {
+    closeMenu();
+  }
+});
+
+// Reset menu on resize
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 800) {
     mainMenu.style.display = "flex";
-    mainMenu.style.top = "0";
-}
-
-function close() {
-    mainMenu.style.top = '-120%';
-}
-
-const sections = document.querySelectorAll('.hidden');
-window.addEventListener('scroll', checkSections);
-
-function checkSections() {
-    const triggerBottom = window.innerHeight * 0.8;
-
-    sections.forEach(section => {
-        const sectionTop = section.getBoundingClientRect().top;
-
-        if (sectionTop < triggerBottom) {
-            section.classList.add('show');
-        } else {
-            section.classList.remove('show');
-        }
-    });
-}
+    hamburgerIcon.style.display = "none";
+    closeIcon.style.display = "none";
+    isOpen = false;
+  } else {
+    if (!mainMenu.classList.contains("menu-visible")) {
+      mainMenu.style.display = "none";
+    }
+    hamburgerIcon.style.display = "block";
+    closeIcon.style.display = "none";
+    isOpen = false;
+  }
+});
